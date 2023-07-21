@@ -1,0 +1,478 @@
+.st_search_room {
+    .st-search-el {
+        .search-form {
+            padding: 0 30px;
+
+            form {
+
+                label {
+                    font-weight: 500;
+                    font-size: 16px;
+                    line-height: 26px;
+                    font-family: 'Poppins';
+                }
+
+                .form-group {
+                    span {
+                        color: var(--main-color, #5191FA);
+                    }
+
+                    .date-wrapper,
+                    .st-form-dropdown-icon {
+                        padding-left: 20px;
+                    }
+
+                    .render {
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 22px;
+                    }
+
+                    &.form-date-search {
+                        position: relative;
+
+                        &::before {
+                            content: "";
+                            width: 1px;
+                            height: 56px;
+                            background-color: #E3E3E3;
+                            position: absolute;
+                            right: -10px;
+                        }
+                    }
+                }
+
+                .field-guest,
+                .form-button {
+                    border: 0;
+                }
+
+                .field-guest .dropdown-menu {
+                    background: #fff;
+                    border: 1px solid #dedede;
+                    box-sizing: border-box;
+                    box-shadow: 0 1px 2px rgb(0 0 0 / 8%), 0 4px 12px rgb(0 0 0 / 5%);
+                    border-radius: 20px;
+                    padding: 30px;
+                    min-width: 320px;
+                    margin-top: 16px !important;
+                }
+            }
+
+            .btn.btn-primary {
+                text-transform: uppercase;
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 21px;
+                font-family: 'Poppins';
+                padding: 20px 30px;
+
+                &:hover {
+                    background: var(--link-color-hover);
+                }
+            }
+
+            .st-number-wrapper {
+
+                .prev,
+                .next {
+                    min-width: 34px;
+                    height: 34px;
+                    left: 0;
+                    top: 0;
+                    background: #fff;
+                    border: 1px solid #727272;
+                    box-sizing: border-box;
+                    border-radius: 50px;
+                    display: block;
+                    line-height: 29px;
+                }
+            }
+        }
+    }
+
+    &.style2 {
+        .search-form {
+            padding: 0 16px;
+
+            form {
+
+                .date,
+                .advanced {
+                    padding: 0;
+
+                    @media only screen and (max-width: 991px) and (min-width: 576px) {
+                        border-bottom: unset;
+                    }
+                }
+
+                .guest {
+                    padding: 0 2px;
+                }
+
+                .form-group {
+                    &.field-guest {
+                        background: rgba(255, 255, 255, 0.7);
+                        padding-left: 2px;
+                        position: relative;
+
+                        @media only screen and (max-width: 991px) and (min-width: 576px) {
+                            padding-top: 12px;
+                            padding-bottom: 12px;
+                        }
+
+                        label {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 130%;
+                            margin-bottom: 10px;
+                        }
+
+                        .render span {
+                            font-weight: 400;
+                            font-size: 24px;
+                            line-height: 36px;
+                            text-transform: uppercase;
+                            color: #4F4F4F;
+
+                            @media only screen and (max-width: 991px) and (min-width: 576px) {
+                                font-size: 20px;
+                                line-height: 32px;
+                            }
+                        }
+
+                        .icon_svg {
+                            position: absolute;
+                            top: 50%;
+                            right: 20px;
+                            transform: translate(0, -50%);
+                        }
+                    }
+
+                    &.form-date-search {
+                        &:before {
+                            display: none;
+                        }
+
+                        padding:0;
+                        gap:2px;
+                        height: 100%;
+
+                        .date-wrapper {
+                            width: 50%;
+                            background: rgba(255, 255, 255, 0.7);
+                            padding: 20px;
+
+                            @media only screen and (max-width: 991px) and (min-width: 576px) {
+                                padding: 12px 20px;
+                            }
+
+                            position: relative;
+
+                            label {
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 130%;
+                                margin-bottom: 10px;
+                            }
+
+                            .render {
+                                font-weight: 400;
+                                font-size: 24px;
+                                line-height: 36px;
+                                text-transform: uppercase;
+                                color: #4F4F4F;
+
+                                @media only screen and (max-width: 991px) and (min-width: 576px) {
+                                    font-size: 20px;
+                                    line-height: 32px;
+                                }
+                            }
+
+                            svg {
+                                position: absolute;
+                                top: 50%;
+                                right: 20px;
+                                margin-top: -12.5px;
+                            }
+                        }
+                    }
+                }
+
+                .form-button {
+                    padding-left: 0;
+
+                    .btn.btn-primary {
+                        padding: 40px 0px;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 24px;
+                        letter-spacing: 0.036em;
+                        text-transform: uppercase;
+                        color: #FFFFFF;
+                        background: transparent;
+                        margin: 0;
+                        border-radius: 0;
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+
+    &.style3 {
+        box-shadow: none;
+
+        .search-form {
+            background: transparent;
+
+            form {
+                .row {
+                    width: 100%;
+                    margin: 0;
+                }
+
+                .date {
+                    width: 66.666%;
+                    padding: 0;
+                }
+
+                .guest {
+                    padding: 0;
+                    width: 33.3333%;
+                }
+
+                .advanced {
+                    width: 100%;
+                    padding: 0;
+
+                    .form-button {
+                        padding: 0;
+                        display: block !important;
+                        text-align: center;
+                        margin-top: 60px;
+                        margin-bottom: 30px;
+                    }
+                }
+
+                .form-group {
+                    background: transparent;
+                    padding: 0;
+                    min-height: auto;
+
+                    &.form-date-search::before {
+                        display: none;
+                    }
+
+                    .date-wrapper {
+                        width: 50%;
+                        padding: 10px 100px;
+                        border-right: 1px solid #C1C1C1;
+                        text-align: center;
+                        position: relative;
+
+                        .check-in-wrapper {
+                            float: none;
+                        }
+
+                        label {
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 130%;
+                            color: #4F4F4F;
+                            margin-bottom: 56px;
+                        }
+
+                        .render {
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 24px;
+                            line-height: 36px;
+                            text-transform: uppercase;
+                            color: #9F473C;
+                        }
+
+                        svg {
+                            position: absolute;
+                            left: 50%;
+                            top: 42px;
+                            left: 50%;
+                            transform: translate(-50%, 0);
+                        }
+                    }
+
+                    &.field-guest {
+                        text-align: center;
+                        position: relative;
+                        padding: 10px 100px;
+
+                        .form-extra-field {
+                            display: block;
+                        }
+
+                        .st-form-dropdown-icon {
+                            padding: 0;
+
+                            label {
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 130%;
+                                color: #4F4F4F;
+                                margin-bottom: 56px;
+                            }
+                        }
+
+                        .render {
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 24px;
+                            line-height: 36px;
+                            text-transform: uppercase;
+
+                            span {
+                                color: #9F473C;
+                            }
+                        }
+
+                        .icon_svg svg {
+                            position: absolute;
+                            top: 30px;
+                            left: 50%;
+                            transform: translate(-50%, 0);
+                        }
+                    }
+                }
+
+            }
+
+            .btn.btn-primary {
+                border-radius: 0;
+                padding: 24px 50px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .st_search_room.style2 .search-form form .form-group.field-guest .icon_svg {
+        right: 0;
+    }
+
+    .st_search_room {
+        .search-form form>.row>div {
+            border-bottom: 0px;
+            padding: 0px;
+        }
+
+        .st-search-el .search-form form .form-group.form-date-search {
+            padding-left: 45px;
+            padding-bottom: 34px;
+        }
+
+        .st-search-el .search-form form .field-guest {
+            padding-left: 30px;
+            padding-bottom: 30px;
+        }
+
+        .st-search-el .search-form .btn.btn-primary {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+
+        .st-search-el .search-form form .form-group.form-date-search::before {
+            right: 0px;
+        }
+    }
+
+    .st_search_room.style2 {
+        .search-form form {
+            .guest {
+
+                padding: 0;
+                padding-left: 6px;
+            }
+
+            .advanced {
+
+                margin-top: 6px;
+            }
+
+            .form-group {
+
+                &.form-date-search {
+                    padding: 0;
+                    gap: 6px;
+
+                    .date-wrapper .render {
+                        font-size: 18px;
+                        line-height: 24px;
+                    }
+                }
+
+                &.field-guest {
+                    padding-bottom: 0;
+                    padding-right: 20px;
+                    padding-left: 0;
+                    padding-top: 20px;
+
+                    .form-extra-field {
+                        align-items: normal;
+                    }
+
+                    .render span {
+                        font-size: 18px;
+                        line-height: 24px;
+
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .st_search_room.style2 .st-search-el .search-form {
+        padding: 0 16px;
+    }
+
+    .st_search_room .st-search-el .search-form form .form-group.form-date-search,
+    .st_search_room .st-search-el .search-form form .field-guest {
+        padding: 20px 25px 20px 40px;
+    }
+
+    .st_search_room .st-search-el .search-form form .form-group.form-date-search::before {
+        bottom: 0px;
+        width: 100%;
+        height: 1px;
+    }
+
+    .st_search_room .st-search-el .search-form form .form-button {
+        padding: 0;
+    }
+
+    .st_search_room .st-search-el .search-form .btn.btn-primary {
+        border-radius: 8px;
+    }
+
+    .st_search_room.style2 .search-form form .form-group.form-date-search {
+        padding: 0;
+        flex-wrap: wrap;
+    }
+
+    .st_search_room.style2 .search-form form .guest {
+        padding-top: 6px;
+        padding-left: 0;
+    }
+
+    .st_search_room.style2 .search-form form .form-group.form-date-search .date-wrapper {
+        padding: 10px 20px;
+    }
+
+    .st_search_room.style2 .search-form form .form-group.field-guest {
+        padding-bottom: 10px;
+        padding-right: 20px;
+        padding-left: 0;
+        padding-top: 10px;
+    }
+}

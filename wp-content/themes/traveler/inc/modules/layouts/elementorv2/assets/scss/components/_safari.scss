@@ -1,0 +1,13 @@
+@media not all and (min-resolution:.001dpcm) { 
+    @supports (-webkit-appearance:none) {
+        .elementor-widget-image,.services-item.item-elementor .item,.image.st-border-radius {
+            -webkit-transform: translate3d(0px, 0px, 0px); 
+        }
+        
+    }
+    [type=button] {
+        appearance: none;
+      -moz-appearance: none;
+      -webkit-appearance: none;
+    }
+}

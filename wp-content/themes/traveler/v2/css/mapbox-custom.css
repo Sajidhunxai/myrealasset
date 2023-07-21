@@ -1,0 +1,74 @@
+#st-map{ position:absolute; top:0; bottom:0; width:100%; }
+#st-content-wrapper .st-map-box .google-map-mapbox #st-map{
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    height: 450px;
+}
+#st-content-wrapper .st-map-box{
+	 width:100%;
+     height: 450px;
+}
+
+.page-template-template-user  .st_mapbox_custom.mapboxgl-map#st_mapbox_custom{
+    width: 100% !important;
+    height: 450px;
+    margin-bottom: 30px;
+}
+/*#map-search-form .mapboxgl-popup{
+	top: -34%;
+	left: 7.8%;
+}
+#map-search-form.map-full-height .mapboxgl-popup {
+    top: -20%;
+    left: 20%;
+}*/
+#map-search-form .mapboxgl-popup .item-service-map:after {
+	bottom: 50%;
+    left: -9px;
+    right: 100%;
+
+}
+#map-search-form .mapboxgl-popup-anchor-bottom .mapboxgl-popup-tip{
+	display: none;
+}
+#map-search-form .mapboxgl-popup .mapboxgl-popup-close-button{
+	cursor: pointer;
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    z-index: 10;
+    font-size: 20px;
+    color: #333;
+    font-weight: 600;
+}
+
+/*#map-search-form .marker {
+	background-image: url('https://i.imgur.com/MK4NUzI.png');
+	background-size: cover;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	cursor: pointer;
+}*/
+#st-content-wrapper .st-hotel-map-area .st-map-box {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 33.3333%;
+    float: left;
+}
+#st-content-wrapper .st-hotel-map-area .st-map-box .google-map-mapbox , #st-content-wrapper .st-hotel-map-area .st-map-box .google-map-mapbox #st-map{
+	height: 100%;
+}
+
+#map-search-form .mapboxgl-popup {
+	max-width: 500px;
+}
+
+#map-search-form .mapboxgl-popup-content {
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}

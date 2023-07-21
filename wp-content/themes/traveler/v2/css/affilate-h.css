@@ -1,0 +1,439 @@
+#ss_flight .search-form {
+  padding-bottom: 0; }
+  #ss_flight .search-form form .form-group {
+    padding: 22px 0 20px 2px; }
+  #ss_flight .search-form form .field-origin {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    #ss_flight .search-form form .field-origin .field-icon {
+      font-size: 25px;
+      color: var(--grey-color, #5E6D77);
+      margin-left: 15px;
+      margin-right: 10px; }
+    #ss_flight .search-form form .field-origin .form-group label {
+      font-size: 14px !important;
+      color: var(--grey-color, #5E6D77);
+      font-weight: 400 !important;
+      margin-bottom: 0px !important; }
+    #ss_flight .search-form form .field-origin .form-group .ss-flight-location {
+      border: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      padding: 0;
+      font-size: 15px;
+      color: var(--link-color, #5191FA);
+      overflow: hidden;
+      width: 100%;
+      display: inline-block;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+      #ss_flight .search-form form .field-origin .form-group .ss-flight-location::-webkit-input-placeholder {
+        color: var(--link-color, #5191FA); }
+      #ss_flight .search-form form .field-origin .form-group .ss-flight-location::-moz-placeholder {
+        color: var(--link-color, #5191FA); }
+      #ss_flight .search-form form .field-origin .form-group .ss-flight-location:-ms-input-placeholder {
+        color: var(--link-color, #5191FA); }
+      #ss_flight .search-form form .field-origin .form-group .ss-flight-location::-ms-input-placeholder {
+        color: var(--link-color, #5191FA); }
+      #ss_flight .search-form form .field-origin .form-group .ss-flight-location::placeholder {
+        color: var(--link-color, #5191FA); }
+  #ss_flight .search-form form .field-destination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-right: 1px solid #dfdfdf; }
+    #ss_flight .search-form form .field-destination .form-group label {
+      font-size: 14px !important;
+      color: var(--grey-color, #5E6D77);
+      font-weight: 400 !important;
+      margin-bottom: 0px !important; }
+    #ss_flight .search-form form .field-destination .form-group .ss-flight-location {
+      border: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      padding: 0;
+      font-size: 15px;
+      color: var(--link-color, #5191FA);
+      overflow: hidden;
+      width: 100%;
+      display: inline-block;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+      #ss_flight .search-form form .field-destination .form-group .ss-flight-location::-webkit-input-placeholder {
+        color: var(--link-color, #5191FA); }
+      #ss_flight .search-form form .field-destination .form-group .ss-flight-location::-moz-placeholder {
+        color: var(--link-color, #5191FA); }
+      #ss_flight .search-form form .field-destination .form-group .ss-flight-location:-ms-input-placeholder {
+        color: var(--link-color, #5191FA); }
+      #ss_flight .search-form form .field-destination .form-group .ss-flight-location::-ms-input-placeholder {
+        color: var(--link-color, #5191FA); }
+      #ss_flight .search-form form .field-destination .form-group .ss-flight-location::placeholder {
+        color: var(--link-color, #5191FA); }
+  #ss_flight .search-form form .field-depart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    #ss_flight .search-form form .field-depart .field-icon {
+      font-size: 25px;
+      color: var(--grey-color, #5E6D77);
+      margin-right: 10px; }
+    #ss_flight .search-form form .field-depart .form-group {
+      margin-bottom: 0; }
+      #ss_flight .search-form form .field-depart .form-group label {
+        font-size: 14px !important;
+        color: var(--grey-color, #5E6D77);
+        font-weight: 400 !important;
+        margin-bottom: 0px !important; }
+      #ss_flight .search-form form .field-depart .form-group .tp_depart_date {
+        border: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding: 0;
+        font-size: 15px;
+        color: var(--link-color, #5191FA);
+        overflow: hidden;
+        width: 100%;
+        display: inline-block;
+        white-space: nowrap;
+        text-overflow: ellipsis; }
+        #ss_flight .search-form form .field-depart .form-group .tp_depart_date::-webkit-input-placeholder {
+          color: var(--link-color, #5191FA); }
+        #ss_flight .search-form form .field-depart .form-group .tp_depart_date::-moz-placeholder {
+          color: var(--link-color, #5191FA); }
+        #ss_flight .search-form form .field-depart .form-group .tp_depart_date:-ms-input-placeholder {
+          color: var(--link-color, #5191FA); }
+        #ss_flight .search-form form .field-depart .form-group .tp_depart_date::-ms-input-placeholder {
+          color: var(--link-color, #5191FA); }
+        #ss_flight .search-form form .field-depart .form-group .tp_depart_date::placeholder {
+          color: var(--link-color, #5191FA); }
+  #ss_flight .search-form form .field-return {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /*border-right: 1px solid #dfdfdf;*/
+    position: relative; }
+    #ss_flight .search-form form .field-return .form-group {
+      margin-bottom: 0; }
+      #ss_flight .search-form form .field-return .form-group label {
+        font-size: 14px !important;
+        color: var(--grey-color, #5E6D77);
+        font-weight: 400 !important;
+        margin-bottom: 0px !important; }
+      #ss_flight .search-form form .field-return .form-group .tp_return_date {
+        border: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding: 0;
+        font-size: 15px;
+        color: var(--link-color, #5191FA);
+        overflow: hidden;
+        width: 100%;
+        display: inline-block;
+        white-space: nowrap;
+        text-overflow: ellipsis; }
+        #ss_flight .search-form form .field-return .form-group .tp_return_date::-webkit-input-placeholder {
+          color: var(--link-color, #5191FA); }
+        #ss_flight .search-form form .field-return .form-group .tp_return_date::-moz-placeholder {
+          color: var(--link-color, #5191FA); }
+        #ss_flight .search-form form .field-return .form-group .tp_return_date:-ms-input-placeholder {
+          color: var(--link-color, #5191FA); }
+        #ss_flight .search-form form .field-return .form-group .tp_return_date::-ms-input-placeholder {
+          color: var(--link-color, #5191FA); }
+        #ss_flight .search-form form .field-return .form-group .tp_return_date::placeholder {
+          color: var(--link-color, #5191FA); }
+    #ss_flight .search-form form .field-return .tp-icon-return-del {
+      position: absolute;
+      font-weight: normal;
+      right: 10px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%); }
+  #ss_flight .search-form form .ss-button-submit button {
+    min-height: 90px;
+    width: 100%;
+    border-radius: 0 3px 3px 0;
+    margin-left: 0; }
+
+.st-option-wrapper.option-wrapper {
+  min-width: 350px;
+  width: auto !important;
+  padding: 10px 0;
+  border-radius: 0 0 4px 4px;
+  border-color: #dfdfdf;
+  max-height: 332px;
+  margin-top: 0px; }
+
+/* Calendar */
+.datepicker-orient-top table thead tr th {
+  font-weight: normal !important; }
+  .datepicker-orient-top table thead tr th.datepicker-switch {
+    padding-top: 4px !important; }
+  .datepicker-orient-top table thead tr th.prev, .datepicker-orient-top table thead tr th.next, .datepicker-orient-top table thead tr th.datepicker-switch {
+    height: 35px;
+    color: #2a2a2a; }
+  .datepicker-orient-top table thead tr th.dow {
+    height: 40px !important; }
+
+.datepicker-orient-top table tr td {
+  color: #2a2a2a !important; }
+  .datepicker-orient-top table tr td.today {
+    background: rgba(81, 145, 250, 0.2) !important; }
+  .datepicker-orient-top table tr td.disabled {
+    color: #dfdfdf !important; }
+  .datepicker-orient-top table tr td:hover {
+    background: rgba(81, 145, 250, 0.2) !important; }
+  .datepicker-orient-top table tr td.active {
+    background-color: rgba(81, 145, 250, 0.5) !important; }
+
+.datepicker table tr td.active.active, .datepicker table tr td.active:hover.active {
+  background-color: rgba(81, 145, 250, 0.5) !important; }
+
+/* Travelpayouts */
+#tp_flight .search-form {
+  padding-bottom: 0; }
+  #tp_flight .search-form form .form-group {
+    padding: 22px 0 20px 2px; }
+  #tp_flight .search-form form .field-origin {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+    #tp_flight .search-form form .field-origin .field-icon {
+      font-size: 25px;
+      color: var(--grey-color, #5E6D77);
+      margin-left: 15px;
+      margin-right: 10px; }
+    #tp_flight .search-form form .field-origin .form-group label {
+      font-size: 14px !important;
+      color: var(--grey-color, #5E6D77);
+      font-weight: 400 !important;
+      margin-bottom: 0px !important; }
+    #tp_flight .search-form form .field-origin .form-group .st-location-name {
+      border: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      padding: 0;
+      font-size: 15px;
+      color: var(--link-color, #5191FA);
+      overflow: hidden;
+      width: 100%;
+      display: inline-block;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+      #tp_flight .search-form form .field-origin .form-group .st-location-name::-webkit-input-placeholder {
+        color: var(--link-color, #5191FA); }
+      #tp_flight .search-form form .field-origin .form-group .st-location-name::-moz-placeholder {
+        color: var(--link-color, #5191FA); }
+      #tp_flight .search-form form .field-origin .form-group .st-location-name:-ms-input-placeholder {
+        color: var(--link-color, #5191FA); }
+      #tp_flight .search-form form .field-origin .form-group .st-location-name::-ms-input-placeholder {
+        color: var(--link-color, #5191FA); }
+      #tp_flight .search-form form .field-origin .form-group .st-location-name::placeholder {
+        color: var(--link-color, #5191FA); }
+  #tp_flight .search-form form .field-destination {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    /*border-right: 1px solid #dfdfdf;*/
+    position: relative; }
+    #tp_flight .search-form form .field-destination .border-right {
+      position: absolute;
+      height: 100%;
+      width: 1px;
+      background: #dfdfdf;
+      right: 15px; }
+    #tp_flight .search-form form .field-destination .form-group label {
+      font-size: 14px !important;
+      color: var(--grey-color, #5E6D77);
+      font-weight: 400 !important;
+      margin-bottom: 0px !important; }
+    #tp_flight .search-form form .field-destination .form-group .st-location-name {
+      border: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      padding: 0;
+      font-size: 15px;
+      color: var(--link-color, #5191FA);
+      overflow: hidden;
+      width: 100%;
+      display: inline-block;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+      #tp_flight .search-form form .field-destination .form-group .st-location-name::-webkit-input-placeholder {
+        color: var(--link-color, #5191FA); }
+      #tp_flight .search-form form .field-destination .form-group .st-location-name::-moz-placeholder {
+        color: var(--link-color, #5191FA); }
+      #tp_flight .search-form form .field-destination .form-group .st-location-name:-ms-input-placeholder {
+        color: var(--link-color, #5191FA); }
+      #tp_flight .search-form form .field-destination .form-group .st-location-name::-ms-input-placeholder {
+        color: var(--link-color, #5191FA); }
+      #tp_flight .search-form form .field-destination .form-group .st-location-name::placeholder {
+        color: var(--link-color, #5191FA); }
+  #tp_flight .search-form form .field-depart {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-left: 0;
+    padding-right: 0; }
+    #tp_flight .search-form form .field-depart .field-icon {
+      font-size: 25px;
+      color: var(--grey-color, #5E6D77);
+      margin-right: 10px; }
+    #tp_flight .search-form form .field-depart .form-group {
+      margin-bottom: 0; }
+      #tp_flight .search-form form .field-depart .form-group label {
+        font-size: 14px !important;
+        color: var(--grey-color, #5E6D77);
+        font-weight: 400 !important;
+        margin-bottom: 0px !important; }
+      #tp_flight .search-form form .field-depart .form-group .tp_depart_date {
+        border: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding: 0;
+        font-size: 15px;
+        color: var(--link-color, #5191FA);
+        overflow: hidden;
+        width: 100%;
+        display: inline-block;
+        white-space: nowrap;
+        text-overflow: ellipsis; }
+        #tp_flight .search-form form .field-depart .form-group .tp_depart_date::-webkit-input-placeholder {
+          color: var(--link-color, #5191FA); }
+        #tp_flight .search-form form .field-depart .form-group .tp_depart_date::-moz-placeholder {
+          color: var(--link-color, #5191FA); }
+        #tp_flight .search-form form .field-depart .form-group .tp_depart_date:-ms-input-placeholder {
+          color: var(--link-color, #5191FA); }
+        #tp_flight .search-form form .field-depart .form-group .tp_depart_date::-ms-input-placeholder {
+          color: var(--link-color, #5191FA); }
+        #tp_flight .search-form form .field-depart .form-group .tp_depart_date::placeholder {
+          color: var(--link-color, #5191FA); }
+  #tp_flight .search-form form .field-return {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    border-right: 1px solid #dfdfdf;
+    position: relative; }
+    #tp_flight .search-form form .field-return .form-group {
+      margin-bottom: 0; }
+      #tp_flight .search-form form .field-return .form-group label {
+        font-size: 14px !important;
+        color: var(--grey-color, #5E6D77);
+        font-weight: 400 !important;
+        margin-bottom: 0px !important; }
+      #tp_flight .search-form form .field-return .form-group .tp_return_date {
+        border: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        padding: 0;
+        font-size: 15px;
+        color: var(--link-color, #5191FA);
+        overflow: hidden;
+        width: 100%;
+        display: inline-block;
+        white-space: nowrap;
+        text-overflow: ellipsis; }
+        #tp_flight .search-form form .field-return .form-group .tp_return_date::-webkit-input-placeholder {
+          color: var(--link-color, #5191FA); }
+        #tp_flight .search-form form .field-return .form-group .tp_return_date::-moz-placeholder {
+          color: var(--link-color, #5191FA); }
+        #tp_flight .search-form form .field-return .form-group .tp_return_date:-ms-input-placeholder {
+          color: var(--link-color, #5191FA); }
+        #tp_flight .search-form form .field-return .form-group .tp_return_date::-ms-input-placeholder {
+          color: var(--link-color, #5191FA); }
+        #tp_flight .search-form form .field-return .form-group .tp_return_date::placeholder {
+          color: var(--link-color, #5191FA); }
+    #tp_flight .search-form form .field-return .tp-icon-return-del {
+      position: absolute;
+      font-weight: normal;
+      right: 10px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      transform: translateY(-50%); }
+  #tp_flight .search-form form .form-group.form-passengers-class .passengers-class {
+    padding: 15px; }
+  #tp_flight .search-form form .field-passenger .form-group {
+    margin-bottom: 0;
+    padding: 20px 0 19px 2px; }
+    #tp_flight .search-form form .field-passenger .form-group label {
+      font-size: 14px !important;
+      color: var(--grey-color, #5E6D77);
+      font-weight: 400 !important;
+      margin-bottom: 0px !important; }
+    #tp_flight .search-form form .field-passenger .form-group .tp_return_date {
+      border: none;
+      -webkit-box-shadow: none;
+      box-shadow: none;
+      padding: 0;
+      font-size: 15px;
+      color: var(--link-color, #5191FA);
+      overflow: hidden;
+      width: 100%;
+      display: inline-block;
+      white-space: nowrap;
+      text-overflow: ellipsis; }
+      #tp_flight .search-form form .field-passenger .form-group .tp_return_date::-webkit-input-placeholder {
+        color: var(--link-color, #5191FA); }
+      #tp_flight .search-form form .field-passenger .form-group .tp_return_date::-moz-placeholder {
+        color: var(--link-color, #5191FA); }
+      #tp_flight .search-form form .field-passenger .form-group .tp_return_date:-ms-input-placeholder {
+        color: var(--link-color, #5191FA); }
+      #tp_flight .search-form form .field-passenger .form-group .tp_return_date::-ms-input-placeholder {
+        color: var(--link-color, #5191FA); }
+      #tp_flight .search-form form .field-passenger .form-group .tp_return_date::placeholder {
+        color: var(--link-color, #5191FA); }
+    #tp_flight .search-form form .field-passenger .form-group .tp_group_display {
+      padding: 0;
+      border: none;
+      -webkit-box-shadow: none;
+      box-shadow: none; }
+      #tp_flight .search-form form .field-passenger .form-group .tp_group_display .display-passengers {
+        font-size: 15px;
+        color: var(--link-color, #5191FA);
+        cursor: pointer; }
+      #tp_flight .search-form form .field-passenger .form-group .tp_group_display .display-class {
+        display: none; }
+      #tp_flight .search-form form .field-passenger .form-group .tp_group_display .display-icon-dropdown {
+        line-height: 21px;
+        cursor: pointer; }
+        #tp_flight .search-form form .field-passenger .form-group .tp_group_display .display-icon-dropdown i {
+          font-weight: normal;
+          font-size: 11px;
+          color: var(--link-color, #5191FA); }
+    #tp_flight .search-form form .field-passenger .form-group .tp-form-passengers-class {
+      min-width: 320px;
+      right: -31px;
+      left: auto;
+      top: 100%; }
+  #tp_flight .search-form form .btn.btn-primary {
+    min-height: 90px;
+    border-radius: 0px 3px 3px 0px; }
+  #tp_flight .search-form form .ss-button-submit button {
+    padding: 34px 20px;
+    width: 100%;
+    border-radius: 0 3px 3px 0;
+    margin-left: 0; }

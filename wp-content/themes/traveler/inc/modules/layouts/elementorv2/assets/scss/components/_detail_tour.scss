@@ -1,0 +1,697 @@
+.st-border-radius-20{
+    border-radius: 20px;
+}
+.single{
+    #st-content-wrapper{
+        &.st-style-elementor{
+            #form-booking-inpage{
+                .check-in-input{
+                    position: absolute;
+                    z-index: -1;
+                    opacity: 0;
+                }
+            }
+
+            .st-relate{
+                .st-heading-section{
+                    @media screen and (max-width: 767px) {
+                        padding-top: 0px !important;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 32px;
+                        line-height: 42px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+.single-st_tours , .single-st_activity, .single-st_cars, .single-st_rental{
+    &.st-header-9{
+        .daterangepicker.dropdown-menu .calendar .calendar-table .table-condensed tbody tr .td-date.end-date.in-range{
+            background: transparent;
+            .date{
+                background: transparent;
+            }
+        }
+
+        @media screen and (max-width:991px){
+            .daterangepicker{
+                width:unset;
+                &.single {
+                    width:calc(100% - 44px) !important
+                }
+            }
+            .price-wrapper{
+                .value{
+                    span{
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: #232323;
+                    }
+                }
+            }
+        }
+        @media (min-width: 768px) and (max-width:991px){
+            .daterangepicker{
+                &.single {
+                    width: calc(100% - 50px) !important;
+                }
+            }
+            .calendar.left.single{
+                width: 100%;
+                .calendar-table{
+                    .table-condensed{
+                        tbody{
+                            tr{
+                                &.td-date{
+                                    height: 60px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .mfp-close{
+            @media screen and (max-width:767px){
+                right: -5px;
+                top: -16px;
+                width: 35px;
+                height: 35px;
+            }
+            i{
+                @media screen and (max-width:767px) {
+                    line-height: 35px;
+                    font-size: 26px;
+                }
+            }
+        }
+        #st-package-popup {
+            position: relative;
+            background: #fff;
+            width: auto;
+            max-width: 700px;
+            margin: auto;
+            transform: translateY(-50%);
+            top: 50%;
+            .mfp-close{
+                right: -15px;
+                top: -15px;
+                @media screen and (max-width:767px){
+                    right: -5px;
+                    top: -16px;
+                    width: 35px;
+                    height: 35px;
+                }
+                i{
+                    @media screen and (max-width:767px) {
+                        line-height: 35px;
+                        font-size: 26px;
+                    }
+                }
+            }
+            .st-section-title{
+                font-style: normal;
+                font-weight: 500;
+                font-size: 18px;
+                line-height: 28px;
+                color: #000000;
+                margin-bottom: 20px;
+            }
+            .st-faq{
+                border-radius: 10px;
+                .item{
+                    .header{
+                        padding: 16px;
+                        h5{
+                            font-weight: 500;
+                            font-size: 18px;
+                            line-height: 28px;
+                            color: var(--heading-color);
+                        }
+                        .arrow{
+                            top: 0px;
+                            color: var(--heading-color);
+                        }
+                    }
+                    .body{
+                        .checkbox-item{
+                            label{
+                                h3{
+                                    font-weight: 400;
+                                    font-size: 16px;
+                                    line-height: 26px;
+                                    color: var(--grey-color,#5E6D77);
+                                    margin-bottom: 0px;
+                                }
+                            }
+
+                        }
+                        .item-inner{
+                            padding-bottom: 16px;
+                            &>li{
+                                margin-bottom: 0px;
+
+                                &:not(:last-child){
+                                    margin-bottom: 25px;
+                                }
+                                @media screen and (max-width:767px) {
+                                    padding: 15px;
+                                    &:not(:last-child){
+                                        margin-bottom: 0px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    .caculator-item{
+                        i{
+                            border: 1px solid var(--grey-color,#5E6D77);
+                            box-sizing: border-box;
+                            border-radius: 50px;
+                            padding: 10px;
+                        }
+                        .extra-service-select{
+                            border: none;
+                            padding: 0px;
+                            font-weight: 500;
+                            font-size: 16px;
+                            line-height: 20px;
+                            text-align: center;
+                            color: var(--heading-color);
+                            max-width: 35px;
+                        }
+                    }
+                }
+            }
+            .booking-item-rating-stars{
+                top: 0px;
+                line-height: 1;
+                li{
+                    i{
+                        color: #DA6938;
+                        font-size: 14px;
+                    }
+                    margin-right: 6px;
+                }
+            }
+        }
+    }
+    #st-content-wrapper{
+        &.st-style-elementor{
+            #write-review{
+                #respond{
+                    .comment-form{
+                        .form-group.review-items{
+                            .item{
+                                width: 100%;
+                                .rates{
+                                    i.grey.hovered {
+                                        cursor: pointer;
+                                        font-size: 18px;
+                                        color: var(--main-color, $color-main);
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .item.onsale{
+                color: #B1BAC1;
+                text-decoration: line-through;
+                font-weight: 400;
+            }
+            @media screen and (max-width: 767px){
+                .st-form-head-book.st-service-header2 {
+                    display: flex !important;
+                }
+                .item.onsale{
+                    color: #B1BAC1;
+                    text-decoration: line-through;
+                    font-weight: 400;
+                }
+
+            }
+
+            .widget-box{
+                margin-top: 0px;
+                margin-bottom: 30px;
+            }
+            .st-hr{
+                margin-top: 40px;
+                margin-bottom: 40px;
+            }
+            .st-service-feature{
+                padding: 0px;
+                border: none;
+                .item{
+                    .icon{
+                        background: #FFFFFF;
+                        border: 1px solid #DEDEDE;
+                        box-sizing: border-box;
+                        border-radius: 10px;
+                        padding: 12px;
+                        width: 48px;
+                        height: 48px;
+                        i{
+                            font-size: 21px;
+                            color: var(--grey-color,#5E6D77);
+                        }
+                    }
+                    .info{
+                        .name{
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 26px;
+                            color: var(--heading-color);
+                        }
+                        .value{
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 22px;
+                            color: var(--grey-color,#5E6D77);
+                        }
+                    }
+                }
+            }
+            .st-inexclude,.st-highlight{
+                .include , .exclude, ul{
+                    padding: 0px;
+                    margin: 0px;
+                    li{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: var(--grey-color,#5E6D77);
+                        margin-bottom: 16px;
+                        &:last-child{
+                            margin-bottom: 0px;
+                        }
+                        i{
+                            border-radius: 50%;
+                            font-size: 10px;
+                            width: 20px !important;
+                            height: 20px;
+                            text-align: center;
+                            line-height: 1;
+                            padding: 5px;
+                            margin-right: 10px;
+                        }
+                    }
+                }
+                .include, ul{
+                    li{
+                        i{
+                            background: #CEF2E5;
+                            color: #10AC58;
+                        }
+                    }
+                }
+                .exclude{
+                    @media screen and (max-width: 767px){
+                        margin-top: 16px;
+                    }
+                    li{
+                        i{
+                            background: #FAD6D6;
+                            color: #DA3838;
+                        }
+                    }
+                }
+
+            }
+            .st-map-wrapper{
+                .st-heading-section{
+                    &+.c-grey{
+                        font-weight: 400;
+                        font-size: 16px;
+                        line-height: 26px;
+                        color: var(--grey-color,#5E6D77);
+                        i{
+                            margin-right: 8px;
+                        }
+                    }
+                }
+            }
+            &.st-single-tour-8 ,&.st-single-tour-9, &.st-single-activity-4, &.st-single-activity-5{
+                .st-program-list , .st-faq-list {
+                    .st-program{
+                        background: #FCFCFC;
+                        border: 1px solid #DEDEDE;
+                        box-sizing: border-box;
+                        border-radius: 16px;
+                        padding: 16px;
+                        margin-bottom: 12px;
+                        .content-itinerary{
+                            margin-top: 10px;
+                        }
+                        .accordion-header{
+                            button{
+                                font-weight: 500;
+                                font-size: 18px;
+                                line-height: 28px;
+                                color: var(--link-color);
+                                @media screen and (max-width:767px) {
+                                    font-size: 16px;
+                                    line-height: 26px;
+                                }
+                                span{
+                                    background: #FFFFFF;
+                                    border: 1px solid #DEDEDE;
+                                    box-sizing: border-box;
+                                    border-radius: 10px;
+                                    outline: none;
+                                    padding: 8px 16px;
+                                    font-style: normal;
+                                    font-weight: 700;
+                                    font-size: 16px;
+                                    line-height: 26px;
+                                    color: var(--link-color, $color-main);
+                                    margin-right: 18px;
+                                    @media screen and (max-width:767px) {
+                                        min-width: 80px;
+                                        text-align: center;
+                                    }
+                                }
+                            }
+                        }
+                        .accordion-button{
+                            &.collapsed::after{
+                                border: 1px solid var(--body-color,#5E6D77);
+                            }
+                            .icon-question{
+                                margin-right: 13px;
+                                font-size: 20px;
+                            }
+                        }
+                        .accordion-body{
+                            font-style: normal;
+                            font-size: 16px;
+                            line-height: 26px;
+                            color: var(--body-color,#5E6D77);
+                            margin-right: 18px;
+                            font-weight: 400;
+                            padding: 20px 0px 0px 0px !important;
+                            p{
+                                margin-bottom: 0px;
+                            }
+                        }
+                    }
+                }
+                .item-slide{
+                    padding-left: 1px;
+                    padding-right: 1px;
+                }
+                .st-relate{
+                    .st-heading-section{
+                        padding-top: 40px;
+                    }
+                }
+
+            }
+            &.st-single-tour-9 , &.st-single-activity-5{
+                .st-gallery{
+                    margin-top: 80px;
+                    @media screen and (max-width: 767px){
+                        margin-top: 40px;
+
+                    }
+                }
+            }
+            .form-guest-search{
+                border-top: 1px solid #DEDEDE;
+                padding: 0px;
+                .guest-wrapper{
+                    padding: 20px;
+                    border-bottom: 1px solid #DEDEDE;
+                    &:nth-last-child(1){
+                        border-bottom: none;
+                    }
+                }
+            }
+            .st-form-book-wrapper{
+                @media screen and (min-width:1024px) {
+                    padding: 0px 0px 30px 0px;
+                }
+
+                margin-bottom: 30px;
+                overflow: hidden;
+                .st-form-head-book{
+                    padding-top: 30px;
+                }
+                .submit-group {
+                    padding:0 24px;
+                    a {
+                        color: #fff;
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                        border-radius: 50px;
+                        align-items: center;
+                        padding: 15px;
+                        transition: all 0.2s;
+                        width: 100%;
+                        border: none;
+                        display: block;
+                    }
+                }
+                .check-in-out-input{
+                    width: 100%;
+                    position: absolute;
+                    left: 0;
+                    bottom: 0;
+                    z-index: -1;
+                    opacity: 0;
+                }
+                .form-booking-price{
+                    position: relative;
+                    overflow: hidden;
+                    margin-bottom: 0px;
+                    .st_sale_class{
+                        position: absolute;
+                        width: 75px;
+                        height: 43px;
+                        transform: rotate(45deg);
+                        right: -27px;
+                        top: -10px;
+                        line-height: 65px;
+                        text-align: center;
+                        color: #fff;
+                        font-size: 15px;
+                        z-index: 8;
+                    }
+                }
+                .st-price-origin{
+                    .st-unit{
+                        margin-right: 8px;
+                    }
+
+                }
+                .st-number-wrapper {
+                    .prev, .next {
+                        min-width: 34px;
+                        height: 34px;
+                        left: 0px;
+                        top: 0px;
+                        background: #FFFFFF;
+                        border: 1px solid var(--grey-color,#5E6D77);
+                        box-sizing: border-box;
+                        border-radius: 50px;
+                        display: block;
+                        line-height: 29px;
+
+                        svg {
+                            width: 12px;
+                            &>g{
+                                &>g{
+                                    stroke: var(--grey-color, #5E6D77);
+                                }
+                            }
+                        }
+                    }
+
+                    .st-input-number {
+                        font-weight: 500;
+                        font-size: 16px !important;
+                        line-height: 20px;
+                        text-align: center;
+                        color: var(--heading-color);
+                        margin-left: 0;
+                        margin-right: 0;
+                    }
+                }
+
+
+                .st-form-starttime{
+                    border-top: 1px solid #DEDEDE;
+                    .starttime_box{
+                        padding: 0px 20px;
+                    }
+                }
+                #nav-tab{
+                    margin-bottom: 20px;
+                }
+                .guest_name_input{
+                    border-radius: 0px 0px 20px 20px;
+                }
+                .form-more-extra{
+                    a{
+                        font-weight: 500;
+                        font-size: 16px;
+                        line-height: 20px;
+                        color: var(--main-color, $color-main);
+                        i{
+                            margin-left: 8px;
+                        }
+                    }
+                    .extra-service-select{
+                        text-align: center;
+                    }
+                }
+                .st-form-package{
+                    border-top: 1px solid #DEDEDE;
+                }
+
+            }
+            #form-booking-inpage{
+                .st-single-tour-search{
+                    .date-wrapper{
+                        width: 100%;
+                    }
+                }
+                .total-price-book{
+                    margin-top: 20px;
+                    #total-text{
+                        h5{
+                            margin-bottom: 0px;
+                        }
+                    }
+                }
+            }
+            //Review
+            &.st-single-tour-8, &.st-single-tour-9 , &.st-single-activity-4, &.st-single-activity-5{
+                #write-review{
+                    #respond{
+                        .comment-form{
+                            .form-group.review-items{
+                                .item{
+                                    width: 100%;
+                                    justify-content: space-between;
+                                }
+                            }
+                        }
+                    }
+                }
+                .st-reviews{
+                    .infor-avg-wrapper{
+                        padding-top: 30px;
+                        padding-bottom: 30px;
+                        .review-avg{
+                            .review-score{
+                                color: var(--main-color, $color-main);
+                                font-size: 30px;
+                                line-height: 40px;
+                            }
+                        }
+                        .review-score-text{
+                            margin-top: 6px;
+                            margin-bottom: 6px;
+                        }
+                    }
+                    .st-review-box-top{
+                        width: 100%;
+                    }
+                    .review-box{
+                        .st-summany{
+                            width: 100%;
+                            .item{
+                                width: 100%;
+                                margin-top: 10px;
+
+                                &:first-child{
+                                    margin-top: 0px;
+                                }
+                                .label{
+                                    width: 140px;
+                                }
+                                .progress{
+                                    margin-left: 20px;
+                                    margin-right: 15px;
+                                }
+                                .number{
+                                    width: 25px;
+                                }
+                            }
+                        }
+                    }
+                    @media screen and (min-width:992px) {
+                        .st-review-box-top{
+                            width: 40.58%;
+                            padding-right: 70px;
+                            border-right: 1px solid #DEDEDE;
+                            margin-bottom: 0px;
+
+                        }
+                        .review-box{
+                            display: flex;
+                            .st-summany{
+                                width: 59.42%;
+                                padding-left: 70px;
+                                .item{
+                                    .label{
+                                        width: 130px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+
+        }
+    }
+}
+.single-st_rental.st-header-9 .daterangepicker.dropdown-menu .calendar .calendar-table .table-condensed tbody tr .td-date.end-date.in-range {
+    background: #B8CCFF;
+    .date {
+        background: #B8CCFF;
+    }
+}
+.st-style-elementor.search-result-page.tour-layout7 ,
+.st-style-elementor.search-result-page.activity-layout5
+{
+    padding-bottom:80px !important;
+    @media screen and (max-width:768px) {
+        padding-bottom:50px !important;
+    }
+    .st-banner-search-form {
+        padding: 0;
+    }
+}
+@media screen and (max-width:768px) {
+    .single {
+        .st-style-elementor{
+            .st-owl-slider{
+                .services-item.item-elementor{
+                    margin-bottom: 30px;
+                }
+            }
+        }
+    }
+}
+#st-content-wrapper{
+    &.tour-layout6, &.activity-layout4{
+        .st-results .toolbar{
+            @media screen and (max-width:991px) {
+                margin-top: 40px !important;
+            }
+
+        }
+    }
+}

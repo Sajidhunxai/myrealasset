@@ -1,0 +1,97 @@
+.room-item{
+    border-radius: 20px;
+    border: 1px solid $color-black03;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 4px 12px rgba(0, 0, 0, 0.05);
+    .thumbnail{
+        overflow: hidden;
+        border-radius: 20px 20px 0 0;
+        a{
+            img{
+                transition: all 0.2s;
+            }
+        }
+        &:hover{
+            a{
+                img{
+                    transform: scale(1.05);
+                }
+            }
+        }
+    }
+    .content{
+        padding: 30px 20px;
+        .name{
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 26px;
+            margin-bottom: 20px;
+            a{
+                color: var(--heading-color)
+            }
+        }
+        .facilities{
+            display: flex;
+            justify-content: space-between;
+            .item{
+                text-align: center;
+                margin-bottom: 0;
+                .stt-icon{
+                    font-size: 22px;
+                    color: var(--grey-color,#5E6D77);
+                    border: 1px solid $color-black03;
+                    padding: 15px;
+                    border-radius: 10px;
+                    display: inline-block;
+                    margin-bottom: 6px;
+                }
+                .text{
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 22px;
+                    text-align: center;
+                    color: var(--grey-color,#5E6D77);
+                    display: block;
+                    sub{
+
+                    }
+                }
+            }
+        }
+        .price-wrapper{
+            border-top: 1px solid $color-black03;
+            padding-top: 20px;
+            margin-top: 20px;
+            margin-bottom: 10px;
+            .onsale{
+                font-weight: 500;
+                font-size: 14px;
+                line-height: 20px;
+                text-decoration: line-through;
+                color: #B1BAC1;
+            }
+            .price{
+                font-weight: 700;
+                font-size: 16px;
+                line-height: 26px;
+                color: var(--heading-color);
+            }
+            .unit{
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 22px;
+                color: var(--grey-color,#5E6D77);
+                margin-left: 3px;
+            }
+        }
+        .btn-show-price , .show-detail{
+            background: var(--main-color, $color-main);
+            border-radius: 50px;
+            padding: 13px 16px;
+            color: #fff;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 20px;
+            display: inline-block;
+        }
+    }
+}

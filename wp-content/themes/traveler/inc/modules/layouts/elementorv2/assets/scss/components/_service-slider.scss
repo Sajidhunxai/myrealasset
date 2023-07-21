@@ -1,0 +1,80 @@
+.st-list-service.slider.style_2 {
+    position: relative;
+    .swiper-slide{
+        padding-left: 1px;
+        padding-right: 1px;
+        .services-item{
+            margin-bottom: 0;
+            .item{
+                margin-bottom: 0;
+            }
+        }
+    }
+    .swiper-pagination {
+        margin-top: 40px;
+        position: relative;
+
+        .swiper-pagination-bullet {
+            width: 8px;
+            height: 8px;
+            background: $color-black03;
+            border-radius: 50%;
+            margin-left: 5px;
+            margin-right: 5px;
+            border: none;
+
+            &.swiper-pagination-bullet-active {
+                width: 10px;
+                height: 10px;
+                background: var(--main-color, $color-main);
+                position: relative;
+                top: 1px;
+            }
+        }
+    }
+
+    .st-button-prev,
+    .st-button-next {
+        width: 40px;
+        height: 40px;
+        background: #FFFFFF;
+        border: 1px solid $color-black03;
+        box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 4px 12px rgba(0, 0, 0, 0.05);
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: absolute;
+
+        span {
+            display: block;
+            background: none;
+            color: var(--heading-color);
+            width: auto;
+            height: auto;
+            font-size: 14px;
+            position: relative;
+        }
+    }
+
+    .st-button-prev {
+        right: 50px;
+        left: auto;
+        top: -40px;
+    }
+
+    .st-button-next {
+        right: 0;
+        left: auto;
+        top: -40px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .st-list-service.slider.style_2{
+        .st-button-prev,
+        .st-button-next{
+            display: none;
+        }
+    }
+}

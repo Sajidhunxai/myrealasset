@@ -1,0 +1,165 @@
+
+.accordion-item {
+    .st-style2 & , .st-style3 & ,.st-style4 &,.st-style5 &{
+        border-bottom: 1px solid #DEDEDE !important;
+        background: transparent;
+    }
+    .accordion-header {
+        .accordion-button {
+            #st-content-wrapper .st-style7 &  {
+                padding: 20px 20px 20px 68px;
+                box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.1);
+                border-radius: 16px;
+            }
+            #st-content-wrapper .st-style2 & {
+                padding-right: 60px;
+            } 
+        }
+        
+    }
+    .st-style8 & {
+        background: #FCFCFC; 
+    }
+}
+.accordion-button{
+    .faq-lib & {
+        position: relative;
+        &::after {
+            display:none; 
+        }
+    }  
+    .stt-icon {
+        position: absolute;
+        right:0;
+        font-family: 'traveler-icon' !important;
+        speak: never;
+        font-style: normal;
+        font-weight: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        color:#727272;
+        &::before {
+            content: "\e965";
+            .st-style2 & ,.st-style5 & {
+                content: "\e962";
+                border:1px solid #DEDEDE;
+                border-radius: 50%;
+                padding: 6px;
+                font-size: 15px;
+            }
+            .st-style3 &,.st-style7 &  {
+                content: "\e962";
+                font-size: 15px;
+                color:#232323;
+            }
+            
+            .st-style4 & {
+                display:none;
+            }
+            .st-style5 & {
+                background: #fff;
+                border:1px solid #fff;
+            }
+            .st-style7 &  { 
+                font-size: 12px;
+                color:#727272;
+            }
+        }
+        .st-style7 & {
+            right:auto;
+            left:24px;
+            background: #fff;
+            width: 28px;
+            height: 28px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 24px;
+        }
+    }
+    &:not(.collapsed) {
+        #st-content-wrapper  .st-style7 & {
+            background:#3B71FE;
+            color:#fff !important;
+        }
+        
+        .stt-icon {
+            transform: rotate(180deg);
+            .st-style1 &,.st-style8 & {
+                text-align: center;
+                width: 28px;
+                height: 28px;
+                background: #3B71FE;
+                border-radius: 30px;
+                line-height: 28px;
+                color: #fff;
+            }
+            &::before {
+                .st-style2 &,.st-style5 &{
+                    content:"\e98d";
+                    background:#232323;
+                    color:#fff;
+                    border:1px solid #232323;
+                }
+                .st-style3 & ,.st-style7 &,.st-style8 & {
+                    content:"\e98d";
+                }
+                .st-style4 & {
+                    display:none;
+                }
+                
+            }
+            .st-style6 & {
+                background: #3B71FE;
+                width: 28px;
+                height: 28px;
+                border-radius: 50%;
+                text-align: center;
+                line-height: 28px;
+                color: #fff;
+            }
+        }
+        .st-style4 & {
+            .label {
+               background: #3B71FE;
+               color:#fff !important;
+            }
+        }
+    }
+    .st-style3 & , .st-style4 &{
+        .label {
+            margin-right: 30px;
+        }
+    }
+    .st-style4 & {
+        .label {
+            width: 30px;
+            height:30px;
+            box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 4px 12px rgba(0, 0, 0, 0.05);
+            border-radius: 20px;
+            text-align: center;
+            line-height: 30px;
+        }
+    }
+    .st-style6 & {
+        padding-left: 34px !important;
+        .label::after {
+            content: "\e992";
+            font-family: "traveler-icon" !important;
+            font-size: 21px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            color:#727272;
+        }
+    }
+    .st-style8 & {
+        .label {
+            margin-right: 18px;
+            border: 1px solid #DEDEDE;
+            border-radius: 10px;
+            padding:8px 16px;
+        }
+    }
+}
+

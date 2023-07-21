@@ -1,0 +1,186 @@
+.rental-grid.service-tour {
+    .services-item.list {
+        h4.title {
+            margin-bottom: 20px;
+        }
+
+        .featured-image {
+            img.image-feature {
+                height: 260px;
+            }
+        }
+    }
+}
+
+.services-item {
+    &.item-elementor {
+        .item {
+            .content-item {
+                .section-footer {
+                    margin-top: 20px;
+                    padding-top: 20px;
+                }
+
+                .price-wrapper {
+                    min-height: unset;
+
+                    &.price-wrapper-tour {
+                        min-height: 42px;
+                    }
+                }
+
+                .amenities {
+                    margin-bottom: 20px;
+
+                    .amenity {
+                        cursor: pointer;
+                        font-weight: 400;
+                        font-size: 14px;
+                        line-height: 22px;
+                        text-align: center;
+                        color: var(--grey-color, #5E6D77);
+                        margin-right: 22px;
+
+                        span {
+                            font-size: 18px;
+                            margin-right: 7px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+.search-result-page.layout-rental-5 {
+    .st-results {
+        .toolbar {
+            padding-right: 0px;
+        }
+    }
+}
+
+.single-st_rental,
+.single-hotel_room {
+    #st-content-wrapper.st-style-elementor {
+        .st-address {
+            margin-left: 0px;
+
+            i {
+                margin-right: 5px;
+                font-size: 16px;
+            }
+        }
+
+        #form-booking-inpage {
+            .form-more-extra {
+                &+.total-price-book {
+                    margin-top: 0px;
+                }
+            }
+
+            .form-date-field {
+                padding: 0px;
+                position: relative;
+            }
+
+            .st_grid_date {
+                li {
+                    border-bottom: 0px;
+
+                    .st-item-date {
+                        padding: 20px;
+                    }
+                }
+            }
+
+        }
+
+        .st-form-book-wrapper {
+            margin-top: 0px;
+        }
+    }
+
+}
+
+.single-st_rental {
+    &.st-header-9 {
+        #st-content-wrapper {
+            .st-breadcrumb {
+                border-bottom: none;
+            }
+
+            &.st-style-elementor {
+                #write-review {
+                    #respond {
+                        .comment-form {
+                            .form-group.review-items {
+                                .item {
+                                    width: 100%;
+
+                                    .rates {
+                                        i.grey {
+                                            font-size: 14px;
+                                        }
+
+                                        i.grey.hovered {
+                                            cursor: pointer;
+                                            font-size: 14px;
+                                            color: var(--main-color, $color-main);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        @media screen and (max-width: 767px) {
+            .daterangepicker.dropdown-menu .calendar.left:not(.single) {
+                width: 100%;
+            }
+        }
+    }
+
+    #st-content-wrapper {
+        &.st-style-elementor {
+            &.st-style-4 {
+                .st-form-book-wrapper {
+                    @media screen and (min-width:1024px) {
+                        margin-top: 50px;
+                    }
+
+                }
+            }
+        }
+    }
+
+    .message-wrapper {
+        button {
+            span {
+                font-size: 20px;
+                line-height: 1;
+            }
+        }
+    }
+}
+
+.single-st_rental {
+    #st-content-wrapper {
+        &.st-style-elementor {
+            .st-hotel-room-content {
+                .hotel-target-book-mobile {
+                    display: none !important;
+
+                    @media screen and (max-width: 991px) {
+                        display: flex !important;
+                        z-index: 99;
+                    }
+
+                }
+            }
+        }
+    }
+}

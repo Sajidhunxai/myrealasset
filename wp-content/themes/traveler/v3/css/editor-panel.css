@@ -1,0 +1,13 @@
+.traveler-elementor-icon {
+  position: relative;
+}
+.traveler-elementor-icon:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 40px;
+  background: url("../images/icon-elementor.svg") no-repeat center center;
+  background-size: 26px;
+}
+
+/*# sourceMappingURL=editor-panel.css.map */

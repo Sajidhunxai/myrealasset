@@ -1,0 +1,15 @@
+/*
+** editor css 
+*/
+.elementor-add-new-section .elementor-add-section-area-button.elementor-add-traveler-essential-button {
+  background-color: #3B71FE;
+  background-image: url('../images/icon_add.svg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  margin-left: 5px;
+}
+
+.elementor-add-new-section .elementor-add-section-area-button.elementor-add-traveler-essential-button i.eicon-plus:before {
+  content: "";
+  display: inline-block;
+}

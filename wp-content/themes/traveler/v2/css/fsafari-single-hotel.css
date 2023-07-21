@@ -1,0 +1,152 @@
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+    @media {
+        .search-result-page .tour-search-form-home .search-form .form-extra-field {
+            padding: 19px 0 16px 0;
+        }
+        .search-result-page .search-form-wrapper .search-form.hotel-search-form.in_tab .form-extra-field {
+            padding: 19px 0 16px 0;
+        }
+    }
+}
+
+@media not all and (min-resolution:.001dpcm) {
+    @media {
+        .search-result-page .tour-search-form-home .search-form .form-extra-field {
+            padding: 19px 0 16px 0;
+        }
+        .search-result-page .search-form-wrapper .search-form.hotel-search-form.in_tab .form-extra-field {
+            padding: 19px 0 16px 0;
+        }
+        .sts-room-wrapper .item .content .action select{
+            top: 0;
+            -webkit-appearance: none;
+            -moz-appearance: none;
+            appearance: none;
+            border-radius: 0px;
+            background-color: transparent;
+            padding: 14px 15px 14px 15px;
+            color: #555;
+            border: 1px solid #ccc;
+            min-width: 180px;
+            background: url(../images/arr_down.png) center right 5px no-repeat;
+            background-size: 11px 11px;
+        }
+
+        body header .header-content .control-right .option-item .option-mid.book-your-tay a{
+            padding: 10px 16px 6px 16px;
+        }
+    }
+}
+
+.modal-backdrop{
+    z-index: 9;
+}
+
+.page-template-template-single-hotel-modern .st-single-hotel-modern-page .st-woo-cartpage .col-left .cart_item .booking-item-wishlist-remove:before{
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.page-template-template-single-hotel-modern .st-woo-checkout-form .woocommerce-checkout-review-order-table1 header .booking-item-payment-title{
+    margin-left: 0;
+}
+.page-template-template-single-hotel-modern .st-woo-checkout-form .woocommerce-checkout-review-order-table1 header{
+    color: #000;
+}
+
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 {
+    border: 1px solid #D7DCE3;
+    -webkit-box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 30px; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 header {
+    color: transparent;
+    border-bottom: 1px solid #EAEEF3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    position: relative; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 header .booking-item-payment-img {
+    margin-left: 0 !important; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 header .booking-item-payment-title {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 450;
+    margin-top: 0px;
+    margin-left: 10px; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 header .col-left {
+    width: 100%; margin-right: 10px;}
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 header .col-left .booking-item-payment-title {
+    font-size: 16px;
+    line-height: 25px;
+    font-weight: 450;
+    margin-top: 0px; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 header .col-left .booking-item-payment-title a {
+    color: #1A2B48; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 header .col-left .address {
+    color: #5E6D77;
+    margin-bottom: 0px; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 header .col-left .address .fa {
+    position: relative;
+    top: 3px;
+    left: -3px; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 header .col-left .price {
+    font-weight: 450;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 0px; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 header .booking-item-payment-img {
+    width: 120px;
+    margin-left: 10px; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 .booking-item-payment-details {
+    padding: 0; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 .booking-item-payment-details li {
+    list-style: none; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 .booking-item-payment-details li .booking-item-payment-price {
+    padding: 0;
+    overflow: hidden; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 .booking-item-payment-details li .booking-item-payment-price li {
+    font-size: 14px; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 .booking-item-payment-details li .booking-item-payment-price li .booking-item-payment-price-title {
+    display: inline-block;
+    float: left;
+    color: #1A2B48;
+    font-size: 100%;
+    padding: 0;
+    text-align: left;
+    font-weight: 400; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 .booking-item-payment-details li .booking-item-payment-price li .booking-item-payment-price-amount {
+    display: inline-block;
+    float: right;
+    font-size: 100%;
+    color: #5E6D77;
+    font-weight: 400; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 .booking-item-payment-total {
+    margin-bottom: 0px;
+    color: #1A2B48;
+    padding: 0;
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 .booking-item-payment-total span {
+    float: right; }
+.st-woo-checkout-form .woocommerce-checkout-review-order-table1 .booking-item-payment-total span strong {
+    font-weight: 450; }
+
+.st-woo-checkout-form .woocommerce-checkout-review-order-table header .col-left .room-name{
+    color: #000;
+}
+
+.st-woo-checkout-form .woocommerce-checkout-review-order-table header .col-left .booking-item-payment-title{
+    margin-left: 0;
+}

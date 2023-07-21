@@ -1,0 +1,178 @@
+.box-team-lib {
+    position: relative;
+    cursor: pointer;
+    .social {
+        transition: all 0.5s;
+        display: none;
+        .st-style-grid-lib-3 & {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(4, 12, 29, 0.6);
+            border-radius: 20px;
+            ul {
+                margin-top: -13px;
+                position: relative;
+                top: 50%;
+                li {
+                    background: #fff;
+                    a {
+                        .fa-facebook-f {
+                            color:#3D52A6;
+                        }
+                        .fa-twitter {
+                            color:#58B1F7;
+                        }
+                        .fa-instagram {
+                            color:#D9498C;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    &:hover {
+        .social {
+            display: block;
+        }
+    }
+    .slider-lib-2 & {
+        overflow: hidden;
+    }
+    .st-style-grid-lib-2 & {
+        &:hover {
+            .author-meta-lib {
+                opacity: 1;
+            }
+        }
+        .social {
+            display: block;
+            ul {
+                li {
+                    background: transparent;
+                    width: auto;
+                    height: auto;
+                    margin: 0 10px;
+                }
+            }
+        }
+    }
+}
+.st-avatar-team-lib img {width: 100%;}
+.author-meta-lib {
+    .st-style-grid-lib-1 & {
+        position: absolute;
+        bottom: 0;
+        left: 30px;
+        right: 30px;
+        transform: translate(0, 50%);
+        background: #fff;
+        display: flex;
+        flex-flow: column;
+        padding: 20px 39px;
+        overflow: visible; 
+    }
+    .slider-lib-1 & {
+        padding: 10px;
+        padding-bottom: 30px;
+        background:#fff;
+    } 
+    .slider-lib-2 & {
+        position: absolute;
+        bottom: 0;
+        background: #fff;
+        padding: 16px 30px;
+        border-radius: 0 10px;
+        min-width: 230px;
+    } 
+    .st-style-grid-lib-2 & {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background: rgba(4, 12, 29, 0.8);
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        flex-flow: column;
+        opacity: 0;
+        transition: all 0.5s;
+    }
+    .st-style-grid-lib-3 & {
+        padding:32px 20px;
+        text-align: center;
+    }
+    h4 {
+        .item-team & {
+            font-weight: 700;
+            font-size: 18px !important;
+            line-height: 26px !important;
+            text-align: center;
+            color: #232323;
+            margin-top: 0;
+            margin-bottom: 4px;
+        }
+        .slider-lib-1 & {
+            margin-top: 10px;
+        } 
+        .st-style-grid-lib-2 & {
+            color: #fff !important;
+        }
+    }
+    .office-team-lib {
+        .item-team & {
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: #727272;
+        }
+        .st-style-grid-lib-2 & {
+            color: rgba(255, 255, 255, 0.7);
+            position: relative;
+            padding-bottom: 20px;
+            margin-bottom: 5px;
+            &::after {
+                content:"";
+                background: rgba(255, 255, 255, 0.5);
+                height: 1px;
+                width: 22px;
+                position: absolute;
+                bottom: 0;
+                margin-left: -11px;
+                left: 50%;
+            }
+        }
+        .st-style-grid-lib-3 & {
+            color:#3B71FE;
+            margin-bottom: 10px;
+        }
+    }
+}
+.social ul {
+    .item-team & {
+        margin: 0;
+        margin-top: 16px;
+        text-align: center;
+        padding: 0;
+        li {
+            display: inline-block;
+            list-style: none;
+            margin-left: 5px;
+            margin-right: 5px;
+            width: 36px;
+            height: 36px;
+            background: #3D52A6;
+            border-radius: 30px;
+            text-align: center;
+            line-height: 36px;
+            a {
+                color: #fff;
+            }
+        }
+    }
+   
+}

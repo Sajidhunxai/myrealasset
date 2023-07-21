@@ -1,0 +1,38 @@
+.st-button-popup-video {
+    &.style1 {
+        button { 
+            background: rgba(255, 255, 255, 0.25);
+            border: 2px solid #FFFFFF;
+            width: 100px;
+            height:100px;
+            span {
+                font-size: 40px;
+                color:#fff;
+            }
+        }
+    }
+    &.style2 {
+        button { 
+            background: rgba(0, 0, 0, 0.5);
+            border: 0;
+            width: 84px;
+            height: 84px;
+            span {
+                font-size: 40px;
+                color:#fff;
+                &::before {
+                    content: "";
+                    background: url(../images/buttonpop.svg) no-repeat;
+                    width: 24px;
+                    height: 24px;
+                    position: absolute;
+                    background-position: 100% 100%;
+                    top: 50%;
+                    left: 50%;
+                    transform: translate(-50%,-50%);
+                }
+
+            }
+        }
+    }
+}

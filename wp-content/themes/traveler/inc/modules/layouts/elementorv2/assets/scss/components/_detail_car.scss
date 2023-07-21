@@ -1,0 +1,523 @@
+.car-layout3,
+.car-layout4,
+.page-template-template-transfer-search {
+    .relate-rooms {
+        .item-slide {
+            .services-item {
+                padding: 1px;
+            }
+        }
+    }
+
+    .services-item.item-elementor {
+        .item {
+            .content-item {
+                padding-top: 0px;
+
+                .title {
+                    margin-bottom: 15px;
+                }
+
+                .car-type {
+                    margin-top: 20px;
+                    font-size: 14px;
+                    line-height: 22px;
+                }
+
+                .price-wrapper {
+                    .init {
+                        padding-left: 4px;
+                    }
+                }
+            }
+
+            .featured-image {
+                padding: 12px 12px 0px 12px;
+
+                a:not(.service-avatar) {
+                    border-radius: 14px;
+                }
+            }
+
+            .section-footer {
+                margin-top: 20px;
+                padding-top: 20px;
+
+                .price-wrapper {
+                    min-height: unset;
+                }
+            }
+        }
+
+        .car-equipments {
+            .item {
+                box-shadow: none;
+                overflow: visible;
+                margin-right: 16px;
+
+                .ico {
+                    width: 44px;
+                    height: 44px;
+                    padding: 12px;
+                    border: 1px solid #DEDEDE;
+                    border-radius: 6px;
+
+                    i {
+                        font-size: 18px;
+                        color: var(--grey-color, #5E6D77);
+                    }
+
+                }
+
+                span.text {
+                    font-weight: 400;
+                    font-size: 14px;
+                    line-height: 22px;
+                    max-width: 44px;
+                }
+
+            }
+        }
+
+        &.list {
+            .car-equipments {
+                .item {
+                    border: none;
+                }
+            }
+
+            .content-item {
+                .car-type {
+                    margin-top: 0px;
+                }
+
+                .reviews {
+                    margin-bottom: 0px !important;
+                    margin-top: 35px !important;
+                }
+            }
+
+            .featured-image {
+                padding: 12px 12px 12px 12px;
+
+                .img-feature {
+                    height: 100%;
+                    overflow: hidden;
+                }
+
+                img {
+                    position: unset;
+                }
+            }
+        }
+
+        .price-wrapper {
+            .unit {
+                padding-left: 4px;
+            }
+        }
+
+    }
+}
+
+.single-st_cars {
+    #st-content-wrapper {
+        &.st-style-elementor {
+            .st-service-feature {
+                border-top: 1px solid #DEDEDE;
+                border-bottom: 1px solid #DEDEDE;
+                padding-top: 40px;
+                padding-bottom: 40px;
+
+                &+.st-hr {
+                    margin: 0px;
+                    height: 0px;
+                }
+
+                .item {
+                    margin-bottom: 0px;
+
+                    .icon {
+                        width: 20px;
+                        height: 20px;
+                        padding: 0px;
+                        line-height: 20px;
+                        border-radius: 20px;
+                        background: #CEF2E5;
+                        display: inline-block;
+                        text-align: center;
+                        margin-right: 12px;
+                        position: relative;
+
+                        i {
+                            font-size: 12px;
+                            color: #10AC58;
+                        }
+
+                        &.stt-off {
+                            background: #FAD6D6;
+
+                            i {
+                                color: #DA3838;
+                            }
+                        }
+                    }
+                }
+
+                .item {
+                    .info {
+                        .name {
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 26px;
+                            color: #232323;
+                        }
+                    }
+                }
+            }
+
+            .st-form-book-wrapper {
+                .form-booking-price {
+                    .st-unit {
+                        line-height: 26px;
+                    }
+                }
+
+                .form-date-car {
+                    border-top: 1px solid #DEDEDE;
+                    padding-left: 0px;
+                    padding-right: 0px;
+
+                    .date-item-wrapper {
+                        padding: 20px;
+
+                        &.checkin {
+                            padding-top: 0px;
+                        }
+
+                        &.checkout {
+                            padding-bottom: 0px;
+                            border-top: 1px solid #DEDEDE;
+                        }
+                    }
+                }
+            }
+
+            &.st-single-car-2 {
+                .st-gallery-car {
+                    padding-top: 40px;
+                    padding-bottom: 40px;
+
+                    .fotorama__nav:before,
+                    .fotorama__stage:before {
+                        background: unset;
+                    }
+
+                    .fotorama__arr,
+                    .fotorama__fullscreen-icon,
+                    .fotorama__video-close,
+                    .fotorama__video-play {
+                        background: unset;
+                    }
+
+                    .fotorama__thumb,
+                    .fotorama__thumb-border {
+                        border-radius: 20px;
+                    }
+
+                    .fotorama__nav:after,
+                    .fotorama__stage:after {
+                        display: none;
+                    }
+
+                    .fotorama__stage__frame {
+                        border-radius: 20px;
+                    }
+
+                    .fotorama__arr--next:after {
+                        content: "\e968";
+                        background: none;
+                        font-family: 'traveler-icon' !important;
+                        color: #FFF;
+                        font-family: 'traveler-icon' !important;
+                    }
+
+                    .fotorama__arr--prev:after {
+                        content: "\e966";
+                        background: none;
+                        font-family: 'traveler-icon' !important;
+                        color: #FFF;
+                        font-family: 'traveler-icon' !important;
+                    }
+
+                    position: relative;
+
+                    .fotorama__arr {
+                        border-radius: 50px;
+                        width: 50px;
+                        height: 50px;
+                        background: rgba(35, 35, 35, 0.4);
+
+                        &:hover {
+                            background-color: #FFF;
+
+                            &:after {
+                                color: var(--heading-color);
+                            }
+                        }
+
+                        &:after {
+                            position: absolute;
+                            left: 50%;
+                            margin-left: -13px;
+                            top: unset;
+                            width: 27px;
+                            line-height: 50px;
+                            text-align: center;
+                        }
+                    }
+
+                    .fotorama__arr--prev {
+                        left: 20px;
+
+                        @media screen and (max-width:991px) {
+                            left: 0px;
+                        }
+                    }
+
+                    .fotorama__arr--next {
+                        right: 20px;
+
+                        @media screen and (max-width:991px) {
+                            right: 0px;
+                        }
+                    }
+
+                    .fotorama__fullscreen-icon {
+                        width: 50px;
+                        height: 50px;
+                        top: auto;
+                        bottom: 20px;
+                        right: 20px;
+                        border-radius: 50px;
+
+                        &:before {
+                            position: absolute;
+                            left: 50%;
+                            margin-left: -13px;
+                            top: unset;
+                            width: 27px;
+                            line-height: 50px;
+                            text-align: center;
+                            content: "\e995";
+                            background: none;
+                            font-family: 'traveler-icon' !important;
+                            color: #FFF;
+                            opacity: 1;
+                            z-index: 1;
+                        }
+
+                        &:after {
+                            content: "";
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            height: 100%;
+                            background: rgba(35, 35, 35, 0.4);
+                            border-radius: 50px;
+                        }
+                    }
+
+                    .fotorama__pointer {
+                        .fotorama__fullscreen-icon {
+                            background: unset !important;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+#st-content-wrapper {
+    &.st-style-elementor {
+        #form-booking-inpage {
+            .total-price-book {
+                margin-top: 0px;
+
+                .st-price-origin {
+                    font-weight: 700;
+                    font-size: 18px;
+                    line-height: 26px;
+                    color: #232323;
+                }
+            }
+        }
+    }
+}
+
+.st-banner-search-form.style_2 #nav-st_cartransfer,
+.page-template-template-transfer-search .st-banner-search-form.style_2 {
+    @media screen and (min-width:1024px) {
+        max-width: 770px;
+        margin: auto;
+
+        .destination-search {
+            width: 45%;
+        }
+    }
+}
+
+.page-template-template-cars-search .st-banner-search-form.style_2 {
+    @media screen and (min-width:1024px) {
+        max-width: 920px;
+        margin: auto;
+        padding: 0px !important;
+    }
+}
+
+.page-template-template-transfer-search {
+    .st-banner-search-form.style_2 {
+        .st-search-form-el {
+            .st-search-el {
+                .search-form {
+                    @media screen and (min-width:1024px) {
+                        .destination-search {
+                            width: 45%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .st-style-elementor.search-result-page {
+        .st-results {
+            .toolbar {
+                padding: 0px;
+
+                .toolbar-action {
+
+                    li {
+                        .dropdown {
+                            margin-right: 0px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .st-tooltip {
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, .5);
+        opacity: 0;
+        visibility: hidden;
+        transform: scale3d(1.1, 1.1, 1.1);
+        -webkit-transition: visibility 0s linear .25s, opacity .25s 0s, -webkit-transform .25s;
+        transition: visibility 0s linear .25s, opacity .25s 0s, -webkit-transform .25s;
+        transition: visibility 0s linear .25s, opacity .25s 0s, transform .25s;
+        transition: visibility 0s linear .25s, opacity .25s 0s, transform .25s, -webkit-transform .25s;
+        z-index: 999;
+
+        &.form-service {
+            .input-group {
+                span {
+                    margin-right: 10px;
+                }
+            }
+        }
+    }
+
+    .st-modal-content {
+        margin-top: 30px;
+    }
+
+    .show-modal {
+        opacity: 1;
+        visibility: visible;
+        transform: scale(1.0);
+        transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+
+        table {
+            margin-top: 30px;
+        }
+
+        .st-modal-dialog {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+            background-color: #fff;
+            padding: 1rem 1.5rem;
+            width: 24rem;
+            border-radius: 0.5rem;
+
+            .st-close-button {
+                display: block;
+                float: right;
+                width: 1.5rem;
+                line-height: 1.5rem;
+                text-align: center;
+                cursor: pointer;
+                border-radius: 0.25rem;
+            }
+        }
+    }
+}
+
+@media(max-width: 767px) {
+    .page-template-template-transfer-search .daterangepicker.popup-date-custom-cartranfer.show-calendar {
+        top: 68px !important;
+        left: 50% !important;
+        -webkit-transform: translateX(-50%);
+        transform: translateX(-50%);
+        display: block;
+        z-index: 999999 !important;
+        position: fixed;
+        max-height: calc(100vh - 68px);
+        overflow-y: auto;
+        border-radius: 0 !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important;
+        border: none !important;
+        width: calc(100% - 30px);
+
+        .calendar-time-wrapper {
+            .calendar-time {
+                margin-bottom: 30px;
+                padding-bottom: 30px;
+            }
+
+        }
+    }
+
+    .page-template-template-transfer-search .st-popup.popup-date {
+        z-index: 999;
+    }
+
+    .page-template-template-transfer-search {
+        .st-style-elementor.search-result-page {
+            .section-footer {
+                .price-wrapper {
+                    margin-bottom: 14px;
+                }
+            }
+        }
+    }
+
+}
+
+.st-estimate-distance.transfer-map-infor {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+    color: rgba(255, 255, 255, 0.8);
+    margin-top: 24px;
+}

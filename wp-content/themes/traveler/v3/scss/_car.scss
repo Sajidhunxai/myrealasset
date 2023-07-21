@@ -1,0 +1,449 @@
+.page-template-template-transfer-search {
+    .select2-container {
+        z-index: 999999 !important;
+    }
+
+    .toolbar {
+        .toolbar-action {
+            float: right;
+            padding-left: 0;
+            margin: 0;
+            margin-top: 4px;
+
+            li {
+                list-style: none;
+                float: left;
+
+                .dropdown {
+                    margin-right: 15px;
+                }
+            }
+        }
+    }
+
+    h3.modern-result-string {
+        width: 100%;
+        display: inline-block;
+        text-align: left;
+    }
+
+}
+
+.search-result-page {
+    &.st-search-car {
+        .sidebar-search-form {
+            .search-form {
+                .form-group {
+
+                    &.field-detination,
+                    &.form-date-field {
+                        i {
+                            display: none;
+                        }
+                    }
+
+                    .st-form-dropdown-icon {
+                        padding-left: 0px;
+                    }
+
+                    .destination-pickup {
+                        padding: 0px;
+
+                        .dropdown {
+                            padding: 0px;
+                        }
+                    }
+
+                    &.form-date-car {
+                        padding: 0px;
+
+                        .date-wrapper {
+                            padding: 0px;
+                            display: inline-block !important;
+                            width: 100%;
+
+                            .check-in-wrapper,
+                            .check-out-wrapper {
+                                margin-right: 0px;
+                                padding-top: 15px;
+                                padding-bottom: 15px;
+                                padding-left: 20px;
+                                width: 100%;
+                                border-bottom: 1px solid #d7dce3;
+                                float: none;
+                            }
+
+                            .check-out-wrapper {
+                                border-bottom: none;
+                            }
+                        }
+
+                    }
+                }
+            }
+        }
+
+        .list-style {
+            .featured-image {
+                height: 100%;
+
+                @media screen and (max-width:767px) {
+                    overflow: unset;
+                }
+
+                a {
+                    @media screen and (min-width:992px) {
+                        height: 100%;
+                    }
+
+                    z-index: 9;
+                    display: initial;
+
+                    img {
+                        height: 100%;
+                        object-fit: cover;
+                    }
+                }
+            }
+
+            .service-price {
+                margin-bottom: 18px;
+
+                span {
+                    font-size: 12px;
+                    color: var(--grey-color, #5E6D77);
+                }
+
+                .price {
+                    font-size: 18px;
+                    color: var(--link-color, #1A2B48);
+                    font-weight: 500;
+                }
+
+                .unit {
+                    font-size: 14px;
+                    color: var(--grey-color, #5E6D77);
+                }
+
+            }
+
+            .btn-view-more {
+                border: 1px solid var(--main-color, #5191FA);
+                border-radius: 3px;
+                color: var(--main-color, #5191FA);
+                background-color: transparent;
+                padding: 9px 25px;
+                margin-top: 12px;
+                margin-left: 0;
+
+                &:hover {
+                    color: #FFF;
+                    background-color: var(--main-color, #5191FA);
+                }
+            }
+
+            .car-type {
+                @media screen and (max-width:767px) {
+                    margin-top: 10px;
+                }
+            }
+
+            .booking-item-rating-stars {
+                li {
+                    i {
+                        font-size: 15px;
+                        color: #ffdc00;
+                    }
+                }
+
+                @media screen and (max-width:767px) {
+                    position: initial;
+                }
+            }
+
+            .amenities {
+                margin-bottom: 0px;
+            }
+        }
+
+        .style-full-map {
+            @media screen and (min-width:992px) {
+                margin-top: 70px;
+            }
+
+            .top-filter {
+                margin-bottom: 40px;
+            }
+
+            @media screen and (max-width:767px) {
+                .modern-result-string {
+                    margin-bottom: 15px;
+                }
+            }
+
+        }
+    }
+}
+
+.single-st_cars {
+    #st-content-wrapper {
+        .form-book-wrapper {
+            .form-extra-field {
+                justify-content: left;
+
+                &.form-date-search {
+                    padding: 0px;
+
+                    .date-wrapper {
+                        width: 100%;
+
+                        .check-in-wrapper,
+                        .check-out-wrapper {
+                            padding: 20px;
+                        }
+
+                        .check-in-wrapper {
+                            border-bottom: 1px solid #d7dce3;
+                        }
+                    }
+                }
+
+                &.field-destination-car {
+                    &+.dropdown-menu {
+                        padding: 15px;
+
+                        &>li {
+                            padding-left: 0px !important;
+                        }
+
+                        .item {
+                            justify-content: flex-start;
+
+                            i {
+                                margin-right: 8px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            .form-group {
+                label {
+                    font-size: 14px;
+                    color: var(--link-color, #1A2B48);
+                    font-weight: 500;
+                }
+
+                .render {
+                    font-size: 14px;
+                }
+            }
+
+        }
+    }
+
+}
+
+.service-list-wrapper {
+    &.list-style {
+        .item-content-w {
+            .service-author {
+                display: flex;
+                align-items: center;
+                margin-bottom: 25px;
+                margin-top: 25px;
+
+                a {
+                    border: 1px solid #dfdfdf;
+                    border-radius: 50%;
+                    position: unset;
+                    bottom: unset;
+                    right: unset;
+                    margin-right: 10px;
+
+                    img {
+                        height: 35px;
+                        width: 35px;
+                        border: 1px solid #dfdfdf;
+                        border-radius: 50%;
+                    }
+
+                }
+
+                p {
+                    margin-bottom: 0;
+                    font-size: 14px;
+                    color: var(--link-color, #1A2B48);
+                    font-weight: 500;
+
+                }
+            }
+        }
+    }
+}
+
+.select-number-passenger {
+    .type-person {
+        margin-right: 30px;
+    }
+
+    .number-pass {
+        display: flex;
+        border: 1px solid #d7dce3;
+        padding: 6px;
+        border-radius: 4px;
+        align-items: center;
+
+        span {
+            line-height: 1;
+            cursor: pointer;
+            vertical-align: middle;
+        }
+
+        .num {
+            min-width: 28px;
+            font-size: 16px;
+            text-align: center;
+            font-weight: 400;
+            margin-left: 2px;
+            margin-right: 2px;
+        }
+    }
+}
+
+.page-template-template-transfer-search-php {
+    .single {
+        .calendar-time-wrapper {
+            .calendar-time {
+                width: 100%;
+                float: left;
+                display: block;
+
+                &.right {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .daterangepicker .table-condensed .td-date.off,
+    .daterangepicker .table-condensed .td-date.td-no-show.available.disabled.off,
+    .daterangepicker .table-condensed .td-date.td-no-show.not_available.disabled.off {
+        border: 1px solid rgba(81, 145, 250, 0.2);
+    }
+}
+
+.st-tooltip {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    opacity: 0;
+    visibility: hidden;
+    transform: scale3d(1.1, 1.1, 1.1);
+    transition: visibility 0s linear .25s, opacity .25s 0s, transform .25s;
+    z-index: 999;
+}
+
+.st-close-button {
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+    display: inline-block;
+}
+
+.st-modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 1rem 1.5rem;
+    width: 24rem;
+    border-radius: 0.5rem;
+}
+
+.st-close-button {
+    display: block;
+    float: right;
+    width: 1.5rem;
+    line-height: 1.5rem;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 0.25rem;
+}
+
+.close-button:hover {
+    background-color: darkgray;
+}
+
+.show-modal {
+    opacity: 1;
+    visibility: visible;
+    transform: scale(1.0);
+    transition: visibility 0s linear 0s, opacity 0.25s 0s, transform 0.25s;
+}
+
+.st-modal-content table tr td {
+    border-color: transparent;
+}
+
+.st-search-cartransfer {
+    form {
+        .st-location-sidebar {
+            .destination-dropoff {
+                padding-left: 0px;
+            }
+        }
+
+        .service-price-book {
+            margin-top: 15px;
+
+            input {
+                padding: 10px 15px;
+            }
+        }
+
+        .sroom-passenger {
+            padding-bottom: 15px;
+        }
+
+        .st-choose-datetime {
+            padding-bottom: 15px;
+        }
+
+        .car-type {
+            padding-top: 15px;
+        }
+    }
+
+    @media screen and (max-width:787px) {
+        .service-list-wrapper {
+            .item-service-inner {
+                .reviews {
+                    .rating {
+                        padding-left: 0px;
+                    }
+                }
+            }
+        }
+
+    }
+
+    .sroom-return {
+        .input-group {
+            span {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .message {
+        display: none;
+    }
+}

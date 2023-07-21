@@ -1,0 +1,33 @@
+.faq {
+    &.style1 {
+        .accordion-button {
+            &::after {
+                content:"-";
+                background:var(--main-color,#1A2B48);
+                color:#fff;
+                width:28px;
+                height:28px;
+                line-height: 28px;
+                text-align: center;
+                font-size: 13px;
+                background-image: none !important;
+                border-radius: 30px;
+            }
+            &.collapsed {
+                &::after {
+                    font-family: "traveler-icon" !important;
+                    content: "\e962";
+                    background: none;
+                    color: var(--body-color,#5E6D77);
+                    width: 28px;
+                    height: 28px;
+                    text-align: center;
+                    font-size: 13px; 
+                } 
+            }
+        }
+        .accordion-body {
+            padding: 16px 0 !important;
+        }
+    }
+}

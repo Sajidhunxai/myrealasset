@@ -1,0 +1,431 @@
+.rtl {
+  .ml5 {
+    margin-right: 5px;
+  }
+
+  .mr5 {
+    margin-left: 5px;
+  }
+
+  .mr15 {
+    margin-left: 15px !important;
+  }
+
+  .mr30 {
+    padding-left: 30px;
+  }
+
+  .ml3 {
+    margin-right: 3px;
+  }
+
+  .pr30 {
+    padding-left: 30px;
+  }
+}
+
+.rtl {
+  .search-result-page .search-form-wrapper .form-button{
+    display: block;
+  }
+  #header #topbar .socials{
+    padding-right: 0;
+    border-left: 1px solid #374969;
+    border-right: none;
+  }
+  #header #topbar .socials li:first-child a{
+    padding-left: 18px;
+  }
+  #header #topbar .topbar-items li:not(:last-child){
+    border-left: 1px solid rgba(255, 255, 255, 0.2);
+    border-right: none;
+  }
+  #header #topbar .topbar-right .topbar-items li:last-child{
+    padding-right: 18px;
+  }
+
+  #header .header .header-right .dropdown-menu {
+    left: 0;
+    right: auto;
+  }
+  #header .header .header-right .dropdown-minicart .dropdown-menu .cart-item .cart-delete-item {
+    left: 20px;
+    right: auto;
+  }
+  #header .header .header-left #st-main-menu .main-menu li.menu-item-has-children .menu-dropdown {
+    right: 0;
+    left: auto;
+  }
+  #header .header .header-left #st-main-menu .main-menu li.menu-item-has-children .fa {
+    right: auto !important;
+    left: 5px !important;
+    text-align: left !important;
+  }
+  #header .header .header-left #st-main-menu .main-menu li.menu-item-has-children .menu-dropdown {
+    padding-right: 0;
+  }
+  #header .header .header-left #st-main-menu .main-menu li.menu-item-has-children .menu-dropdown li.menu-item-has-children .fa {
+    right: auto;
+    left: 20px;
+    transform: rotate(180deg);
+    text-align: right !important;
+  }
+  #header .header .header-left #st-main-menu .main-menu li.menu-item-has-children .menu-dropdown .menu-dropdown {
+    left: auto;
+    right: 100%;
+  }
+  #st-main-menu .back-menu{
+    padding-left: 0;
+    padding-right: 22px;
+  }
+  #st-main-menu .back-menu .fa{
+    transform: rotate(180deg);
+  }
+  #st-content-wrapper .st-breadcrumb ul {
+    padding-right: 0;
+  }
+  #st-content-wrapper .st-breadcrumb ul li:first-child {
+    padding-left: 20px;
+    padding-right: 0;
+  }
+  #st-content-wrapper .st-breadcrumb ul li:not(:last-child)::after {
+    right: auto;
+    left: -2px;
+  }
+  .tour-featured-image .st-gallery .shares {
+    right: auto !important;
+    left: 0 !important;
+  }
+  #st-content-wrapper .st-gallery .shares .share-item:not(:last-child) {
+    margin-right: auto;
+    margin-left: 10px;
+  }
+  #st-content-wrapper .st-gallery .shares .share-wrapper {
+    padding-right: 0;
+    left: auto;
+    right: 0;
+  }
+  .tour-featured-image .st-gallery .btn-group {
+    left: 0;
+    right: auto;
+  }
+  .tour-featured-image .st-gallery .btn-group .btn {
+    margin-right: 10px;
+    margin-left: auto;
+    i {
+      margin-left: 10px;
+      margin-right: auto;
+    }
+  }
+  .st-number-wrapper span {
+    float: left;
+  }
+  .st-number-wrapper input {
+    float: left;
+  }
+  #st-content-wrapper.st-single-tour .st-tour-feature .item .icon {
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  #st-content-wrapper.st-single-tour .review-box .review-box-score {
+    border-left: 1px solid #D7DCE3;
+    border-right: none;
+  }
+  #st-content-wrapper.st-single-tour .grid-item .thumb {
+    position: relative;
+  }
+  #st-content-wrapper.st-single-tour .grid-item .thumb .service-avatar {
+    img {
+      border-radius: 50%;
+    }
+  }
+  #st-content-wrapper.st-single-tour .grid-item .section-footer .footer-inner .service-price {
+    float: right;
+  }
+  #st-content-wrapper .owl-carousel-wrapper .owl-tour-program .owl-item .item .header {
+    right: 0;
+    left: auto;
+  }
+  #st-content-wrapper.st-single-tour .st-include .exclude li i {
+    padding-left: 15px;
+    padding-right: 0;
+  }
+  #st-content-wrapper.st-single-tour .st-highlight ul li::before {
+    margin-left: 20px;
+    margin-right: auto;
+  }
+  #st-content-wrapper .st-hotel-header .review-score .head .left {
+    text-align: left;
+  }
+  #st-content-wrapper .st-hotel-header .review-score .head .score {
+    float: left;
+    margin-right: 20px;
+    margin-left: auto;
+  }
+  #st-content-wrapper .st-hotel-header .review-score .head .score::after {
+    left: auto;
+    right: -8px;
+    border: 15px solid transparent;
+    border-bottom: 25px solid var(--link-color, #5191FA);
+  }
+  .media-left, .media > .pull-left {
+    padding-left: 10px;
+    padding-right: 0 !important;
+  }
+  #st-content-wrapper .st-heading-section .toggle-section {
+    float: left !important;
+  }
+  #st-content-wrapper .sub-heading {
+    .st-link {
+      float: left;
+      margin-right: 10px;
+    }
+  }
+  #st-content-wrapper .st-hotel-room-content .room-featured-items .item img, #st-content-wrapper .st-hotel-room-content .room-featured-items .item .fa {
+    margin-left: 25px;
+    margin-right: 0;
+  }
+  #st-content-wrapper .facilities .item .fa {
+    margin-right: 0;
+    margin-left: 15px;
+  }
+  #st-content-wrapper .form-book-wrapper .form-extra-field .arrow {
+    right: auto;
+    left: 20px;
+  }
+  #st-content-wrapper #reviews #write-review .review-form .review-items .rates .fa:not(:last-child) {
+    margin-left: 20px;
+    margin-right: 0;
+  }
+  #st-content-wrapper.st-single-tour .grid-item .service-tag .feature_class {
+    padding: 6px 10px !important;
+  }
+  #st-content-wrapper #reviews .review-list .comment-item .comment-item-head .like {
+    float: left;
+  }
+  #st-content-wrapper #reviews .review-list .comment-item .comment-item-head .media {
+    margin-left: 100px;
+    margin-right: 0;
+  }
+  #st-content-wrapper.st-single-tour .review-list .comment-item .comment-item-body .review-star li {
+    float: right;
+  }
+  #st-content-wrapper.st-single-tour .st-faq .item .header .field-icon {
+    float: right;
+    margin-left: 15px;
+    margin-right: 0;
+  }
+  #st-content-wrapper.st-single-tour .st-faq .item .header h5 {
+    float: right;
+  }
+  #st-content-wrapper.st-single-tour .st-faq .item .header .arrow {
+    float: left;
+  }
+  #st-content-wrapper.st-single-tour .st-include .include li i {
+    margin-left: 15px;
+    margin-right: 0;
+  }
+  #st-content-wrapper.st-single-tour .st-list-tour-related .item .body .price {
+    margin-right: 5px;
+    margin-left: 0;
+  }
+  #st-content-wrapper .form-book-wrapper .form-more-extra .extras {
+    padding-right: 0;
+  }
+  #st-content-wrapper .pagination ul li a i {transform: rotate(180deg);}
+  .st-checkout-page .cart-info .info-section ul li span.label {
+    text-align: right;
+  }
+  .st-checkout-page .cart-info .info-section ul li span.value {
+    float: left;
+  }
+  .st-checkout-page .payment-form .payment-item .st-icheck .st-icheck-item label .check-payment {
+    margin-left: 15px;
+    margin-right: 0;
+  }
+  .st-checkout-page .payment-form .payment-item .st-icheck .st-icheck-item {
+    padding-left: 26px;
+    padding-right: 0;
+  }
+  .st-checkout-page .booking-success-notice .col-left .notice-success {
+    margin-right: 20px;
+    margin-left: 0;
+  }
+  .st-checkout-page .booking-success-notice .booking-info-detail {
+    padding: 0;
+    margin: 0;
+    border-right: 3px solid var(--link-color, #5191FA);
+    border-left: 0;
+    padding-right: 30px;
+    padding-left: 0;
+  }
+  .st-checkout-page .info-form ul li span.label {
+    text-align: right;
+  }
+  #header .header .header-left #st-main-menu .main-menu{
+    padding-right: 30px;
+    .menu-item-has-children {
+      &.has-mega-menu {
+        .mega-menu {
+          left: auto !important;
+        }
+      }
+    }
+  }
+  .subcribe-form input[type="submit"]{
+    left: 0;
+    right: auto;
+    border-radius: 5px 0 0 5px;
+  }
+  .modal .modal-content .modal-body .form-group .input-icon{
+    right: auto !important;
+    left: 15px;
+  }
+  svg{
+    direction: ltr !important;
+  }
+  .vc_sep_pos_align_left {
+    margin-right: 0;margin-left: auto;
+  }
+  #st-content-wrapper .pagination {
+    display: flex;
+    flex-direction: column;
+  }
+  #st-content-wrapper.st-single-tour .widgets .owner-info .author-review-box .author-start-rating .stm-star-rating .inner .stm-star-rating-upper {
+    left: auto;
+  }
+  #st-content-wrapper.st-single-tour .review-box .review-sumary .item .number {
+    margin-right: 3%;
+    margin-left: initial;
+  }
+  .sidebar-wrapper .sidebar-menu .sidebar-dropdown .sidebar-submenu li a:before {
+    margin-right: initial;
+    margin-left: 10px;
+  }
+  .page-wrapper .page-content > .st_content .item-box-static .title_post_type {
+    margin-left: initial;
+    margin-right: 20px;
+  }
+  .st_content .style-list .item-service.st-ccv-tour.st-ccv-activity .service-price {
+    padding-right: initial;
+  }
+  .st_content .style-list .item-service.st-ccv-tour.st-ccv-activity .service-content-footer .service-cancel i {
+    margin-right: 0;
+    margin-left: 3px;
+  }
+  .st-create-service .st-create-service-content .form-group input[type="checkbox"] {
+    float: right;
+    margin-right: 0;
+    margin-left: 8px;
+  }
+  .st-create-service .st-create-service-content .tab-content .st-field-list-item .item .del {
+    left: 14px;
+    right: auto;
+  }
+  select option {
+    direction: rtl;
+    unicode-bidi: bidi-override;
+    text-align: right;
+  }
+  #st-content-wrapper .layout7 .destination-item .content.affilate-destination .st_destination {
+    text-align: left;
+  }
+  #header.header-style-4 .header .header-right #st-main-menu .main-menu li.menu-item-has-children .menu-dropdown {
+    padding-right: 0;
+  }
+  &.st-header-5 #header.header-style-4 #topbar .topbar-left .socials li a .fa {
+    margin-right: initial;
+    margin-left: 8px;
+  }
+  #st-content-wrapper.st-single-tour .st-list-tour-related .item .body .duration {
+    margin-right: 5px;
+    margin-left: initial;
+  }
+  #st-content-wrapper.st-single-tour.st-single-tour-new #write-review #respond .review-items {
+    padding-right: 40px;
+    padding-left: 100px;
+  }
+  #st-content-wrapper.st-single-tour.st-single-tour-new #write-review #respond .review-items .item .rates .fa:not(:last-child) {
+    margin-right: 0;
+  }
+  #header #topbar .topbar-right .dropdown-menu {
+    left: 0;
+    right: auto;
+  }
+  .st-search-form-tour .tour-search-form-home .search-form .form .form-group {
+    &.field-guest-new,
+    &.form-date-search-new {
+      padding-left: 0;
+      padding-right: 30px;
+      i {
+        right: 30px;
+      }
+    }
+  }
+  .best-seller-swapper .st-best-seller .st-best-seller-text .tour-title {
+    padding-right: initial;
+    padding-left: 100px;
+  }
+  &.st-header-6 #header.header-style-4 #topbar .topbar-left .st-list.socials li a .fa {
+    padding-right: initial;
+    padding-left: 10px;
+  }
+  .search-result-page.style-2 .tour-sidebar-search .modern-search-result .style-list .item-service .item-service-wrapper .section-footer .st_sale_class {
+    right: auto;
+  }
+  #st-content-wrapper.st-single-tour .st-hotel-header .right .review-score.style-2 .review-score-item .per-total {
+    padding-left: initial;
+    padding-right: 10px;
+  }
+  .search-result-page .st-hotel-result .style-list .item-service .service-review .count-review {
+    display: inline-block;
+  }
+  #st-content-wrapper.st-single-tour{
+    .st-program{
+      .st-program-list.style3{
+        border-right: 1px solid #D7DCE3;
+        border-left: none;
+        margin-right: 10px;
+        margin-left: unset;
+        &>.item{
+          padding-right: 30px;
+          padding-left: 0px;
+          .icon{
+            right: -12px;
+            left: auto;
+          }
+        }
+      }
+    }
+  }
+  
+
+}
+
+@media(max-width: 991px) {
+  .rtl{
+    #st-main-menu .main-menu{
+      left: auto;
+      right: -110%;
+      transition: right .3s ease, opacity .3s ease;
+    }
+    #st-main-menu.open .main-menu{
+      left: auto;
+      right: 0;
+    }
+    #st-main-menu .back-menu{
+      left: auto;
+      right: -110%;
+      transition: right .3s ease, opacity .3s ease;
+    }
+    #st-main-menu.open .back-menu{
+      left: auto;
+      right: 0;
+    }
+    #header .header .header-left #st-main-menu .main-menu li.menu-item-has-children .fa {
+      left: 15px !important;
+    }
+
+  }
+}
+.rtl #st-content-wrapper .st-availability .st-calendar .daterangepicker .calendar .table-condensed .td-date{float:right}

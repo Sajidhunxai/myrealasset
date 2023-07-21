@@ -1,0 +1,30 @@
+[dir=rtl] .st_list_service_room.style_1 .services-item.item-elementor .item .content-item .section-footer .room-featured-items .item {
+  margin-left: 40px;
+  margin-right: unset;
+  overflow: visible;
+}
+[dir=rtl] .st_list_service_room.style_1 .services-item.item-elementor .item .content-item .section-footer .room-featured-items .item span {
+  font-size: 30px;
+  color: #A28458;
+  margin-left: 10px;
+  margin-right: unset;
+}
+[dir=rtl] .st-mod-style #st-content-wrapper.st-style-elementor .st-service-header2 .st-address i {
+  margin-left: 5px;
+  margin-right: unset;
+}
+[dir=rtl] .st_list_service_room.style_1 .featured-image .price-wrapper {
+  right: 20px;
+  left: unset;
+}
+[dir=rtl] .st_search_room .st-search-el .search-form form .form-group .date-wrapper,
+[dir=rtl] .st_search_room .st-search-el .search-form form .form-group .st-form-dropdown-icon {
+  padding-left: unset;
+  padding-right: 20px;
+}
+[dir=rtl] .st_search_room .st-search-el .search-form form .form-group.form-date-search::before {
+  right: unset;
+  left: -10px;
+}
+
+/*# sourceMappingURL=rtl-2.css.map */

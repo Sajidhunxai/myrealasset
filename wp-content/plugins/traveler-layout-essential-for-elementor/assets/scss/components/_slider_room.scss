@@ -1,0 +1,96 @@
+.st_slider_room {
+    &.style-1 {
+        .st-img {
+            position: relative;
+
+            h3 {
+                position: absolute;
+                bottom: 0;
+                left: 50%;
+                transform: translate(-50%, -139px);
+                font-weight: 400;
+                font-size: 36px;
+                line-height: 54px;
+                text-align: center;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+
+            .btn {
+                position: absolute;
+                width: 420px;
+                bottom: 0;
+                left: 50%;
+                transform: translate(-50%, -45px);
+                padding: 18px;
+                font-weight: 500;
+                font-size: 16px;
+                line-height: 24px;
+                text-align: center;
+                letter-spacing: 0.036em;
+                background: #fff;
+                border-radius: 0;
+                text-transform: uppercase;
+                color: #EB5757;
+
+                &:hover {
+                    background: var(--main-color, #3B71FE);
+                }
+            }
+
+            &::before {
+                content: "";
+                background: linear-gradient(180deg, rgba(210, 244, 255, 0) 39.29%, rgba(4, 26, 52, 0.5) 100%);
+                top: 0;
+                bottom: 0;
+                left: 0;
+                right: 0;
+                position: absolute;
+            }
+        }
+
+        .swiper-slide {
+
+            .st-button-prev,
+            .st-button-next {
+                display: none;
+            }
+
+            .st-img {
+                opacity: 0.5;
+            }
+        }
+
+        .swiper-slide-active {
+
+            .st-img {
+                opacity: 1;
+            }
+        }
+
+        @media screen and (min-width:1024px) {
+            .st-button-prev {
+                left: calc(15% + 60px);
+            }
+
+            .st-button-next {
+                right: calc(15% + 60px);
+            }
+        }
+
+
+        .st-button-prev,
+        .st-button-next {
+            display: block;
+            background: rgba(0, 0, 0, 0.3);
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            padding: 30px;
+
+            &:hover {
+                background: rgba(0, 0, 0, 0.5);
+            }
+        }
+    }
+}

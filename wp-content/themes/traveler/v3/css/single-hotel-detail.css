@@ -1,0 +1,453 @@
+.single-st_hotel .st-hotel-content, .single-hotel_room .st-hotel-content, .single-st_tours .st-hotel-content, .single-st_rental .st-hotel-content, .single-st_cars .st-hotel-content, .single-st_activity .st-hotel-content {
+  display: none;
+}
+@media screen and (max-width: 991px) {
+  .single-st_hotel .st-hotel-content, .single-hotel_room .st-hotel-content, .single-st_tours .st-hotel-content, .single-st_rental .st-hotel-content, .single-st_cars .st-hotel-content, .single-st_activity .st-hotel-content {
+    display: block;
+  }
+}
+.single-st_hotel .featured-image-background, .single-hotel_room .featured-image-background, .single-st_tours .featured-image-background, .single-st_rental .featured-image-background, .single-st_cars .featured-image-background, .single-st_activity .featured-image-background {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+.single-st_hotel .featured-image-background .st-gallery, .single-hotel_room .featured-image-background .st-gallery, .single-st_tours .featured-image-background .st-gallery, .single-st_rental .featured-image-background .st-gallery, .single-st_cars .featured-image-background .st-gallery, .single-st_activity .featured-image-background .st-gallery {
+  position: relative;
+  height: 500px;
+}
+.single-st_hotel .featured-image-background .st-gallery .btn-group, .single-hotel_room .featured-image-background .st-gallery .btn-group, .single-st_tours .featured-image-background .st-gallery .btn-group, .single-st_rental .featured-image-background .st-gallery .btn-group, .single-st_cars .featured-image-background .st-gallery .btn-group, .single-st_activity .featured-image-background .st-gallery .btn-group {
+  position: absolute;
+  bottom: 30px;
+  right: 0;
+}
+.single-st_hotel .featured-image-background .st-gallery .btn-group .btn, .single-hotel_room .featured-image-background .st-gallery .btn-group .btn, .single-st_tours .featured-image-background .st-gallery .btn-group .btn, .single-st_rental .featured-image-background .st-gallery .btn-group .btn, .single-st_cars .featured-image-background .st-gallery .btn-group .btn, .single-st_activity .featured-image-background .st-gallery .btn-group .btn {
+  margin-left: 10px;
+}
+.single-st_hotel #st-modal-show-map .st-map, .single-hotel_room #st-modal-show-map .st-map, .single-st_tours #st-modal-show-map .st-map, .single-st_rental #st-modal-show-map .st-map, .single-st_cars #st-modal-show-map .st-map, .single-st_activity #st-modal-show-map .st-map {
+  display: block;
+}
+.single-st_hotel .st-service-header, .single-hotel_room .st-service-header, .single-st_tours .st-service-header, .single-st_rental .st-service-header, .single-st_cars .st-service-header, .single-st_activity .st-service-header {
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+.single-st_hotel .st-service-header .review-score .head, .single-hotel_room .st-service-header .review-score .head, .single-st_tours .st-service-header .review-score .head, .single-st_rental .st-service-header .review-score .head, .single-st_cars .st-service-header .review-score .head, .single-st_activity .st-service-header .review-score .head {
+  position: relative;
+  font-size: 24px;
+  color: var(--link-color, #1A2B48);
+  font-weight: 400;
+  line-height: 25px;
+  margin-bottom: 5px;
+}
+.single-st_hotel .st-service-header .review-score .head .left, .single-hotel_room .st-service-header .review-score .head .left, .single-st_tours .st-service-header .review-score .head .left, .single-st_rental .st-service-header .review-score .head .left, .single-st_cars .st-service-header .review-score .head .left, .single-st_activity .st-service-header .review-score .head .left {
+  text-align: right;
+}
+.single-st_hotel .st-service-header .review-score .head .head-rating, .single-hotel_room .st-service-header .review-score .head .head-rating, .single-st_tours .st-service-header .review-score .head .head-rating, .single-st_rental .st-service-header .review-score .head .head-rating, .single-st_cars .st-service-header .review-score .head .head-rating, .single-st_activity .st-service-header .review-score .head .head-rating {
+  display: block;
+  line-height: 13px;
+  margin-top: 11px;
+}
+.single-st_hotel .st-service-header .review-score .head .text-rating, .single-hotel_room .st-service-header .review-score .head .text-rating, .single-st_tours .st-service-header .review-score .head .text-rating, .single-st_rental .st-service-header .review-score .head .text-rating, .single-st_cars .st-service-header .review-score .head .text-rating, .single-st_activity .st-service-header .review-score .head .text-rating {
+  color: var(--main-color, #5191FA);
+  font-size: 14px;
+}
+.single-st_hotel .st-service-header .review-score .head .score, .single-hotel_room .st-service-header .review-score .head .score, .single-st_tours .st-service-header .review-score .head .score, .single-st_rental .st-service-header .review-score .head .score, .single-st_cars .st-service-header .review-score .head .score, .single-st_activity .st-service-header .review-score .head .score {
+  position: relative;
+  float: right;
+  margin-left: 20px;
+  padding: 15px 12px 0;
+  background: var(--main-color, #5191FA);
+  border-radius: 5px;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 400;
+  min-height: 52px;
+}
+.single-st_hotel .st-service-header .review-score .head .score span, .single-hotel_room .st-service-header .review-score .head .score span, .single-st_tours .st-service-header .review-score .head .score span, .single-st_rental .st-service-header .review-score .head .score span, .single-st_cars .st-service-header .review-score .head .score span, .single-st_activity .st-service-header .review-score .head .score span {
+  font-size: 14px;
+  color: #fff;
+}
+.single-st_hotel .st-service-header .review-score .head .score:after, .single-hotel_room .st-service-header .review-score .head .score:after, .single-st_tours .st-service-header .review-score .head .score:after, .single-st_rental .st-service-header .review-score .head .score:after, .single-st_cars .st-service-header .review-score .head .score:after, .single-st_activity .st-service-header .review-score .head .score:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+  bottom: 0;
+  left: -8px;
+  border: 15px solid transparent;
+  border-bottom: 25px solid var(--main-color, #5191FA);
+}
+.single-st_hotel .st-service-header .review-score .foot, .single-hotel_room .st-service-header .review-score .foot, .single-st_tours .st-service-header .review-score .foot, .single-st_rental .st-service-header .review-score .foot, .single-st_cars .st-service-header .review-score .foot, .single-st_activity .st-service-header .review-score .foot {
+  color: var(--grey-color, #5E6D77);
+  font-size: 14px;
+  text-align: right;
+}
+.single-st_hotel .st-stars i, .single-hotel_room .st-stars i, .single-st_tours .st-stars i, .single-st_rental .st-stars i, .single-st_cars .st-stars i, .single-st_activity .st-stars i {
+  cursor: pointer;
+  font-size: 12px;
+  color: #fa5636;
+}
+@media screen and (max-width: 991px) {
+  .single-st_hotel .st-list-rooms .heading, .single-hotel_room .st-list-rooms .heading, .single-st_tours .st-list-rooms .heading, .single-st_rental .st-list-rooms .heading, .single-st_cars .st-list-rooms .heading, .single-st_activity .st-list-rooms .heading {
+    margin: 0;
+    padding-top: 15px;
+  }
+  .single-st_hotel .st-list-rooms .heading, .single-st_hotel .st-list-rooms .facilities, .single-hotel_room .st-list-rooms .heading, .single-hotel_room .st-list-rooms .facilities, .single-st_tours .st-list-rooms .heading, .single-st_tours .st-list-rooms .facilities, .single-st_rental .st-list-rooms .heading, .single-st_rental .st-list-rooms .facilities, .single-st_cars .st-list-rooms .heading, .single-st_cars .st-list-rooms .facilities, .single-st_activity .st-list-rooms .heading, .single-st_activity .st-list-rooms .facilities {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .single-st_hotel .st-list-rooms .price-wrapper, .single-st_hotel .st-list-rooms .btn-show-price, .single-st_hotel .st-list-rooms .btn_hotel_booking, .single-hotel_room .st-list-rooms .price-wrapper, .single-hotel_room .st-list-rooms .btn-show-price, .single-hotel_room .st-list-rooms .btn_hotel_booking, .single-st_tours .st-list-rooms .price-wrapper, .single-st_tours .st-list-rooms .btn-show-price, .single-st_tours .st-list-rooms .btn_hotel_booking, .single-st_rental .st-list-rooms .price-wrapper, .single-st_rental .st-list-rooms .btn-show-price, .single-st_rental .st-list-rooms .btn_hotel_booking, .single-st_cars .st-list-rooms .price-wrapper, .single-st_cars .st-list-rooms .btn-show-price, .single-st_cars .st-list-rooms .btn_hotel_booking, .single-st_activity .st-list-rooms .price-wrapper, .single-st_activity .st-list-rooms .btn-show-price, .single-st_activity .st-list-rooms .btn_hotel_booking {
+    margin-left: 15px;
+    margin-bottom: 30px;
+  }
+  .single-st_hotel .st-service-header, .single-hotel_room .st-service-header, .single-st_tours .st-service-header, .single-st_rental .st-service-header, .single-st_cars .st-service-header, .single-st_activity .st-service-header {
+    margin-top: 30px;
+  }
+}
+.single-st_hotel .modal, .single-hotel_room .modal, .single-st_tours .modal, .single-st_rental .modal, .single-st_cars .modal, .single-st_activity .modal {
+  z-index: 999999;
+}
+.single-st_hotel .btn_hotel_booking, .single-st_hotel .btn-show-price, .single-hotel_room .btn_hotel_booking, .single-hotel_room .btn-show-price, .single-st_tours .btn_hotel_booking, .single-st_tours .btn-show-price, .single-st_rental .btn_hotel_booking, .single-st_rental .btn-show-price, .single-st_cars .btn_hotel_booking, .single-st_cars .btn-show-price, .single-st_activity .btn_hotel_booking, .single-st_activity .btn-show-price {
+  padding: 10px 20px;
+  background: var(--main-color, #5191FA);
+}
+@media screen and (min-width: 991px) {
+  .single-st_hotel #st-content-wrapper .form-book-wrapper, .single-hotel_room #st-content-wrapper .form-book-wrapper, .single-st_tours #st-content-wrapper .form-book-wrapper, .single-st_rental #st-content-wrapper .form-book-wrapper, .single-st_cars #st-content-wrapper .form-book-wrapper, .single-st_activity #st-content-wrapper .form-book-wrapper {
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+}
+.single-st_hotel #st-content-wrapper.single-hotel-style-2 .widget-box:first-child, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .widget-box:first-child, .single-st_tours #st-content-wrapper.single-hotel-style-2 .widget-box:first-child, .single-st_rental #st-content-wrapper.single-hotel-style-2 .widget-box:first-child, .single-st_cars #st-content-wrapper.single-hotel-style-2 .widget-box:first-child, .single-st_activity #st-content-wrapper.single-hotel-style-2 .widget-box:first-child {
+  margin-top: 0px;
+}
+.single-st_hotel #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs, .single-st_tours #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs, .single-st_rental #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs, .single-st_cars #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs, .single-st_activity #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs {
+  border: none;
+}
+.single-st_hotel #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li, .single-st_tours #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li, .single-st_rental #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li, .single-st_cars #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li, .single-st_activity #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li {
+  margin-bottom: -2px;
+  padding-left: 30px;
+  padding-right: 30px;
+  display: inherit;
+}
+@media screen and (max-width: 991px) {
+  .single-st_hotel #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li, .single-st_tours #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li, .single-st_rental #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li, .single-st_cars #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li, .single-st_activity #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.single-st_hotel #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li:first-child, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li:first-child, .single-st_tours #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li:first-child, .single-st_rental #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li:first-child, .single-st_cars #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li:first-child, .single-st_activity #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li:first-child {
+  padding-left: 0;
+}
+.single-st_hotel #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li a, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li a, .single-st_tours #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li a, .single-st_rental #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li a, .single-st_cars #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li a, .single-st_activity #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li a {
+  padding: 20px 0;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--link-color, #1A2B48);
+  text-transform: uppercase;
+  background: 0 0;
+  border: none;
+}
+.single-st_hotel #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li a.active, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li a.active, .single-st_tours #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li a.active, .single-st_rental #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li a.active, .single-st_cars #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li a.active, .single-st_activity #st-content-wrapper.single-hotel-style-2 .st-tabs .nav-tabs li a.active {
+  color: var(--main-color, #5191FA);
+  border: none;
+  border-bottom: 2px solid var(--main-color, #5191FA);
+}
+.single-st_hotel #st-content-wrapper.single-hotel-style-2 .st-tabs .tab-pane, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .st-tabs .tab-pane, .single-st_tours #st-content-wrapper.single-hotel-style-2 .st-tabs .tab-pane, .single-st_rental #st-content-wrapper.single-hotel-style-2 .st-tabs .tab-pane, .single-st_cars #st-content-wrapper.single-hotel-style-2 .st-tabs .tab-pane, .single-st_activity #st-content-wrapper.single-hotel-style-2 .st-tabs .tab-pane {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+.single-st_hotel #st-content-wrapper.single-hotel-style-2 .st-tabs .content-tab-detail, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .st-tabs .content-tab-detail, .single-st_tours #st-content-wrapper.single-hotel-style-2 .st-tabs .content-tab-detail, .single-st_rental #st-content-wrapper.single-hotel-style-2 .st-tabs .content-tab-detail, .single-st_cars #st-content-wrapper.single-hotel-style-2 .st-tabs .content-tab-detail, .single-st_activity #st-content-wrapper.single-hotel-style-2 .st-tabs .content-tab-detail {
+  margin-top: 20px;
+}
+.single-st_hotel #st-content-wrapper.single-hotel-style-2 .st-tabs .content-tab-detail .accordion-button, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .st-tabs .content-tab-detail .accordion-button, .single-st_tours #st-content-wrapper.single-hotel-style-2 .st-tabs .content-tab-detail .accordion-button, .single-st_rental #st-content-wrapper.single-hotel-style-2 .st-tabs .content-tab-detail .accordion-button, .single-st_cars #st-content-wrapper.single-hotel-style-2 .st-tabs .content-tab-detail .accordion-button, .single-st_activity #st-content-wrapper.single-hotel-style-2 .st-tabs .content-tab-detail .accordion-button {
+  font-size: 18px;
+  font-weight: 500;
+}
+.single-st_hotel #st-content-wrapper.single-hotel-style-2 .form-date-field, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .form-date-field, .single-st_tours #st-content-wrapper.single-hotel-style-2 .form-date-field, .single-st_rental #st-content-wrapper.single-hotel-style-2 .form-date-field, .single-st_cars #st-content-wrapper.single-hotel-style-2 .form-date-field, .single-st_activity #st-content-wrapper.single-hotel-style-2 .form-date-field {
+  padding: 20px;
+}
+@media screen and (max-width: 991px) {
+  .single-st_hotel #st-content-wrapper.single-hotel-style-2 .submit-group, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .submit-group, .single-st_tours #st-content-wrapper.single-hotel-style-2 .submit-group, .single-st_rental #st-content-wrapper.single-hotel-style-2 .submit-group, .single-st_cars #st-content-wrapper.single-hotel-style-2 .submit-group, .single-st_activity #st-content-wrapper.single-hotel-style-2 .submit-group {
+    padding-bottom: 15px;
+  }
+}
+@media screen and (min-width: 991px) {
+  .single-st_hotel #st-content-wrapper.single-hotel-style-2 .form-book-wrapper, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .form-book-wrapper, .single-st_tours #st-content-wrapper.single-hotel-style-2 .form-book-wrapper, .single-st_rental #st-content-wrapper.single-hotel-style-2 .form-book-wrapper, .single-st_cars #st-content-wrapper.single-hotel-style-2 .form-book-wrapper, .single-st_activity #st-content-wrapper.single-hotel-style-2 .form-book-wrapper {
+    margin-top: 0px;
+  }
+  .single-st_hotel #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .form-group, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .form-group, .single-st_tours #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .form-group, .single-st_rental #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .form-group, .single-st_cars #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .form-group, .single-st_activity #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .form-group {
+    border-top: none;
+    border-right: 1px solid #d7dce3;
+    width: 33.3333%;
+    float: left;
+    position: relative;
+    display: block;
+  }
+  .single-st_hotel #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .check-in-wrapper, .single-st_hotel #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .check-out-wrapper, .single-st_hotel #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .form-extra-field, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .check-in-wrapper, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .check-out-wrapper, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .form-extra-field, .single-st_tours #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .check-in-wrapper, .single-st_tours #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .check-out-wrapper, .single-st_tours #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .form-extra-field, .single-st_rental #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .check-in-wrapper, .single-st_rental #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .check-out-wrapper, .single-st_rental #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .form-extra-field, .single-st_cars #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .check-in-wrapper, .single-st_cars #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .check-out-wrapper, .single-st_cars #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .form-extra-field, .single-st_activity #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .check-in-wrapper, .single-st_activity #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .check-out-wrapper, .single-st_activity #st-content-wrapper.single-hotel-style-2 .form-book-wrapper .form-extra-field {
+    padding: 15px 20px;
+  }
+  .single-st_hotel #st-content-wrapper.single-hotel-style-2 .form-book-wrapper label, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .form-book-wrapper label, .single-st_tours #st-content-wrapper.single-hotel-style-2 .form-book-wrapper label, .single-st_rental #st-content-wrapper.single-hotel-style-2 .form-book-wrapper label, .single-st_cars #st-content-wrapper.single-hotel-style-2 .form-book-wrapper label, .single-st_activity #st-content-wrapper.single-hotel-style-2 .form-book-wrapper label {
+    margin-bottom: 0;
+  }
+  .single-st_hotel #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2, .single-st_tours #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2, .single-st_rental #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2, .single-st_cars #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2, .single-st_activity #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 {
+    border-top: 1px solid #d7dce3;
+    box-shadow: 1px 1px 2px #eee;
+  }
+  .single-st_hotel #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .submit-group, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .submit-group, .single-st_tours #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .submit-group, .single-st_rental #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .submit-group, .single-st_cars #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .submit-group, .single-st_activity #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .submit-group {
+    border: none;
+  }
+  .single-st_hotel #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .form-date-field, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .form-date-field, .single-st_tours #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .form-date-field, .single-st_rental #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .form-date-field, .single-st_cars #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .form-date-field, .single-st_activity #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .form-date-field {
+    padding: 0px;
+  }
+}
+@media screen and (min-width: 991px) and (min-width: 992px) {
+  .single-st_hotel #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group, .single-st_tours #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group, .single-st_rental #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group, .single-st_cars #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group, .single-st_activity #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group {
+    border-right: none;
+  }
+  .single-st_hotel #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:nth-child(2n+1), .single-hotel_room #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:nth-child(2n+1), .single-st_tours #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:nth-child(2n+1), .single-st_rental #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:nth-child(2n+1), .single-st_cars #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:nth-child(2n+1), .single-st_activity #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:nth-child(2n+1) {
+    padding-right: 5px;
+  }
+  .single-st_hotel #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:nth-child(2n), .single-hotel_room #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:nth-child(2n), .single-st_tours #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:nth-child(2n), .single-st_rental #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:nth-child(2n), .single-st_cars #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:nth-child(2n), .single-st_activity #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:nth-child(2n) {
+    padding-left: 5px;
+  }
+  .single-st_hotel #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:not(.st_note_send_email), .single-hotel_room #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:not(.st_note_send_email), .single-st_tours #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:not(.st_note_send_email), .single-st_rental #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:not(.st_note_send_email), .single-st_cars #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:not(.st_note_send_email), .single-st_activity #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .form-group:not(.st_note_send_email) {
+    width: 50%;
+  }
+  .single-st_hotel #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .st_note_send_email, .single-hotel_room #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .st_note_send_email, .single-st_tours #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .st_note_send_email, .single-st_rental #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .st_note_send_email, .single-st_cars #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .st_note_send_email, .single-st_activity #st-content-wrapper.single-hotel-style-2 .form-book-wrapper.form-single-style-2 .st_send-mail-form .st_note_send_email {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+
+.single-hotel-style-2 .widgets:first-child {
+  margin-top: 40px;
+}
+@media screen and (max-width: 992px) {
+  .single-hotel-style-2 .form-check-availability-hotel .form-group {
+    padding: 0px;
+  }
+  .single-hotel-style-2 .form-check-availability-hotel .form-group.submit-group {
+    padding: 15px;
+  }
+}
+
+#st-content-wrapper .st-hotel-map-area {
+  position: relative;
+}
+@media screen and (min-width: 992px) {
+  #st-content-wrapper .st-hotel-map-area .st-gallery {
+    width: 66.6666%;
+    float: left;
+  }
+}
+@media screen and (min-width: 992px) {
+  #st-content-wrapper .st-hotel-map-area .st-map {
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 33.3333%;
+    float: left;
+  }
+  #st-content-wrapper .st-hotel-map-area .st-map .google-map {
+    height: 100%;
+  }
+}
+#st-content-wrapper .form-book-wrapper {
+  position: relative;
+}
+#st-content-wrapper .form-book-wrapper .field-guest {
+  padding: 0px;
+}
+#st-content-wrapper .form-book-wrapper .field-guest .form-extra-field {
+  padding: 20px;
+}
+#st-content-wrapper .form-book-wrapper .message-wrapper {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.question-author {
+  margin-top: 15px;
+}
+
+.st-featured-background {
+  height: 500px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+}
+@media (max-width: 480px) {
+  .st-featured-background {
+    display: none;
+  }
+}
+
+.room-featured-items {
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 991px) {
+  .room-featured-items {
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 991px) {
+  .room-featured-items .item {
+    margin-bottom: 15px;
+  }
+}
+
+.single-hotel_room .st-stars i {
+  cursor: pointer;
+  color: #ffdc00;
+  font-size: 20px;
+}
+.single-hotel_room .review-list .comment-item-body .st-stars {
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.single-hotel_room .form-more-extra .extras {
+  padding: 0px;
+  list-style: none;
+}
+.single-hotel_room .form-more-extra .extras li {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+  display: block;
+  border-bottom: 1px solid var(--light-grey-color, #EAEEF3);
+}
+@media (max-width: 480px) {
+  .single-hotel_room .form-more-extra .extras li .st-flex {
+    display: flex;
+  }
+}
+.single-hotel_room .form-more-extra .dropdown {
+  display: block;
+  text-align: right;
+  font-size: 16px;
+  color: var(--main-color, #5191FA);
+}
+
+.single .title-enquiry-form {
+  font-size: 17px;
+  padding: 20px 20px;
+  margin: 0px;
+}
+.single .st-sent-mail-customer {
+  padding: 0 20px;
+  position: relative;
+  border-top: 1px solid #d7dce3;
+  background-color: #fff;
+}
+.single .st-sent-mail-customer .st_send-mail-form .form-group {
+  border-top: none !important;
+  margin-top: 5px;
+  padding: 0px !important;
+}
+.single .st-sent-mail-customer .st_send-mail-form .form-group input {
+  border: none;
+  padding: 20px 5px;
+  border-bottom: 1px solid #d7dce3;
+  border-radius: 0;
+  box-shadow: inset 0 1px 1px transparent;
+}
+.single .st-sent-mail-customer .st_send-mail-form .form-group textarea {
+  height: 80px;
+  border: none;
+  padding: 20px 5px;
+  border-bottom: 1px solid #d7dce3;
+  border-radius: 0;
+  box-shadow: inset 0 1px 1px transparent;
+}
+.single form .ccv-success {
+  min-height: 300px;
+  position: relative;
+}
+.single form .ccv-success .content-message {
+  position: absolute;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  top: 21%;
+  width: 100%;
+  text-align: center;
+  font-size: 14px;
+}
+.single #nav-book .dropdown {
+  width: 100%;
+}
+.single #nav-book .form-extra-field {
+  padding: 20px;
+}
+.single .st-flickity {
+  position: relative;
+}
+.single .st-flickity .shares {
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  z-index: 1;
+}
+.single .st-flickity .shares .share-item {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: rgba(26, 43, 72, 0.6);
+  color: #FFF;
+  text-align: center;
+  line-height: 40px;
+}
+.single .st-flickity .shares .share-item:not(:last-child) {
+  margin-right: 10px;
+}
+.single .st-flickity .carousel .item {
+  margin-right: 5px;
+  width: 75%;
+  height: 500px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.single .st-flickity .flickity-prev-next-button {
+  background: rgba(26, 43, 72, 0.6);
+  width: 50px;
+  height: 50px;
+  border-radius: 3px;
+}
+.single .st-flickity .flickity-prev-next-button.next {
+  right: 30px;
+}
+.single .st-flickity .flickity-prev-next-button.next:after {
+  content: "\f178";
+  font-family: FontAwesome, sans-serif;
+  font-size: 18px;
+  color: #FFF;
+  z-index: 1;
+}
+.single .st-flickity .flickity-prev-next-button.previous {
+  left: 30px;
+}
+.single .st-flickity .flickity-prev-next-button.previous:after {
+  content: "\f177";
+  font-family: FontAwesome, sans-serif;
+  font-size: 18px;
+  color: #FFF;
+  z-index: 1;
+}
+.single .st-flickity .flickity-button-icon {
+  display: none;
+}
+.single .st-flickity .flickity-prev-next-button.next:after {
+  content: url("../../v2/images/svg/ico_next.svg") !important;
+  position: relative;
+  top: 4px;
+}
+.single .st-flickity .flickity-prev-next-button.previous:after {
+  content: url("../../v2/images/svg/ico_pre.svg") !important;
+  position: relative;
+  top: 4px;
+}
+
+/*# sourceMappingURL=single-hotel-detail.css.map */

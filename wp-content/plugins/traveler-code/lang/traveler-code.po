@@ -1,0 +1,1250 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Traveler Code\n"
+"POT-Creation-Date: 2021-04-05 15:01+0700\n"
+"PO-Revision-Date: 2021-04-05 15:04+0700\n"
+"Last-Translator: \n"
+"Language-Team: Shinetheme\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;_n;__\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../custom-posttype.php:46
+msgid "--Select--"
+msgstr ""
+
+#: ../importer/parsers.php:43 ../importer/parsers.php:75
+#: ../importer/parsers.php:83
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: ../importer/parsers.php:44
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: ../importer/parsers.php:87 ../importer/parsers.php:92
+#: ../importer/parsers.php:283 ../importer/parsers.php:474
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: ../importer/st.importer.php:779 ../update_taxonomy.php:103
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: ../importer/st.importer.php:815 ../update_taxonomy.php:139
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: ../importer/st.importer.php:832 ../update_taxonomy.php:156
+msgid "Site does not support widget"
+msgstr ""
+
+#: ../importer/st.importer.php:849 ../update_taxonomy.php:173
+msgid "Widget already exists"
+msgstr ""
+
+#: ../importer/st.importer.php:887 ../update_taxonomy.php:211
+msgid "Imported"
+msgstr ""
+
+#: ../importer/st.importer.php:890 ../update_taxonomy.php:214
+msgid "Imported to Inactive"
+msgstr ""
+
+#: ../importer/st.importer.php:895 ../update_taxonomy.php:219
+msgid "No Title"
+msgstr ""
+
+#: ../importer/st.init.php:107
+msgid "Easily import content by only one click"
+msgstr ""
+
+#: ../importer/st.init.php:109
+msgid "Import now"
+msgstr ""
+
+#: ../importer/st.init.php:110
+msgid "No import"
+msgstr ""
+
+#: ../importer/st_package.php:202
+msgid "Activity"
+msgstr ""
+
+#: ../importer/st_package.php:207
+msgid "Affiliate"
+msgstr ""
+
+#: ../importer/st_package.php:212
+msgid "Car"
+msgstr ""
+
+#: ../importer/st_package.php:217
+msgid "CityTour"
+msgstr ""
+
+#: ../importer/st_package.php:222
+msgid "SinTour"
+msgstr ""
+
+#: ../importer/st_package.php:227
+msgid "Hostel"
+msgstr ""
+
+#: ../importer/st_package.php:232
+msgid "Hotel"
+msgstr ""
+
+#: ../importer/st_package.php:237
+msgid "Hotel - Tour"
+msgstr ""
+
+#: ../importer/st_package.php:242
+msgid "All Services"
+msgstr ""
+
+#: ../importer/st_package.php:247
+msgid "Mix Services"
+msgstr ""
+
+#: ../importer/st_package.php:252
+msgid "New Hotel"
+msgstr ""
+
+#: ../importer/st_package.php:257
+msgid "Rental"
+msgstr ""
+
+#: ../importer/st_package.php:262
+msgid "Single Hotel"
+msgstr ""
+
+#: ../importer/st_package.php:267
+msgid "Hiking"
+msgstr ""
+
+#: ../importer/st_package.php:272
+msgid "Tour"
+msgstr ""
+
+#: ../importer/st_package.php:277
+msgid "Traveler Tour"
+msgstr ""
+
+#: ../importer/st_package.php:282
+msgid "YaTour"
+msgstr ""
+
+#: ../importer/st_package.php:287
+msgid "SoloTour"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:125
+#: ../importer/wordpress-importer.php:134
+#: ../importer/wordpress-importer.php:185
+#: ../importer/wordpress-importer.php:189
+#: ../importer/wordpress-importer.php:198
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:126
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:169
+msgid "All done."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:169
+msgid "Have fun!"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:170
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:190
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:206
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:231
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:257
+msgid "Assign Authors"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:258
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:260
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:270
+msgid "Import Attachments"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:273
+msgid "Download and import file attachments"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:290
+msgid "Import author:"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:301
+msgid "or create new user with login name:"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:304
+msgid "as a new user:"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:312
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:314
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:315
+msgid "- Select -"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:365
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:416
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:456
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:502
+#: ../importer/wordpress-importer.php:643
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:528
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:550
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:609
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:774
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:781
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:844
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:857
+msgid "Invalid file type"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:904
+msgid "Remote server did not respond"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:911
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:918
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:923
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:929
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:1028
+msgid "Import WordPress"
+msgstr ""
+
+#: ../importer/wordpress-importer.php:1035
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:1050
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: ../importer/wordpress-importer.php:1051
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: ../inc/class.language.php:191
+msgid "Delete : \""
+msgstr ""
+
+#: ../inc/class.language.php:223
+msgid "Set Language default : \""
+msgstr ""
+
+#: ../inc/language/add.php:3
+msgid "Add Language"
+msgstr ""
+
+#: ../inc/language/add.php:13 ../inc/language/show.php:43
+msgid "Name Language"
+msgstr ""
+
+#: ../inc/language/add.php:21 ../inc/language/show.php:44
+msgid "Description"
+msgstr ""
+
+#: ../inc/language/add.php:29
+msgid "Save"
+msgstr ""
+
+#: ../inc/language/add.php:30 ../inc/language/translate.php:43
+msgid "Cancel"
+msgstr ""
+
+#: ../inc/language/list_file.php:3
+msgid "Language : "
+msgstr ""
+
+#: ../inc/language/list_file.php:18
+msgid "File Name"
+msgstr ""
+
+#: ../inc/language/list_file.php:19
+msgid "Url"
+msgstr ""
+
+#: ../inc/language/list_file.php:43 ../inc/language/translate.php:17
+msgid "Back"
+msgstr ""
+
+#: ../inc/language/show.php:3
+msgid "ST Language"
+msgstr ""
+
+#: ../inc/language/show.php:18
+msgid "Set Language default"
+msgstr ""
+
+#: ../inc/language/show.php:31
+msgid "Save Changes"
+msgstr ""
+
+#: ../inc/language/show.php:32 ../include/class.order.php:29
+msgid "Add New"
+msgstr ""
+
+#: ../inc/language/show.php:56 ../inc/language/translate.php:27
+msgid "Translate"
+msgstr ""
+
+#: ../inc/language/show.php:59
+msgid "Delete"
+msgstr ""
+
+#: ../inc/language/translate.php:3
+msgid "Edit Language : "
+msgstr ""
+
+#: ../inc/language/translate.php:6
+msgid "File : "
+msgstr ""
+
+#: ../inc/language/translate.php:25
+#: ../st-option-tree/includes/class-ot-meta-box.php:263
+#: ../st-option-tree/includes/class-ot-settings.php:595
+#: ../st-option-tree/includes/ot-functions-admin.php:4428
+msgid "Title"
+msgstr ""
+
+#: ../inc/language/translate.php:42
+msgid "Save Change"
+msgstr ""
+
+#: ../include/class.order.php:25 ../include/class.order.php:27
+msgid "Orders"
+msgstr ""
+
+#: ../include/class.order.php:26 ../include/class.order.php:28
+msgid "Order"
+msgstr ""
+
+#: ../include/class.order.php:30
+msgid "Add New Order"
+msgstr ""
+
+#: ../include/class.order.php:31
+msgid "New Order"
+msgstr ""
+
+#: ../include/class.order.php:32
+msgid "Edit Order"
+msgstr ""
+
+#: ../include/class.order.php:33
+msgid "View Order"
+msgstr ""
+
+#: ../include/class.order.php:34
+msgid "All Orders"
+msgstr ""
+
+#: ../include/class.order.php:35
+msgid "Search Orders"
+msgstr ""
+
+#: ../include/class.order.php:36
+msgid "Parent Orders:"
+msgstr ""
+
+#: ../include/class.order.php:37
+msgid "No Orders found."
+msgstr ""
+
+#: ../include/class.order.php:38
+msgid "No Orders found in Trash."
+msgstr ""
+
+#: ../plugins/Tax-meta-class/Tax-meta-class.php:373
+#: ../plugins/Tax-meta-class/Tax-meta-class.php:420
+msgid "Remove"
+msgstr ""
+
+#: ../plugins/Tax-meta-class/Tax-meta-class.php:386
+msgid "Add"
+msgstr ""
+
+#: ../plugins/Tax-meta-class/Tax-meta-class.php:719
+msgid "Remove Image"
+msgstr ""
+
+#: ../plugins/Tax-meta-class/Tax-meta-class.php:721
+msgid "Upload Image"
+msgstr ""
+
+#: ../plugins/Tax-meta-class/Tax-meta-class.php:741
+msgid "Select a color"
+msgstr ""
+
+#: ../plugins/class-wp-twitter-api.php:68
+msgid "Can't get the bearer token, check your credentials"
+msgstr ""
+
+#: ../plugins/class-wp-twitter-api.php:124
+msgid "Bearer Token is good, check your query"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-meta-boxes.php:25
+msgid "Demo Meta Box"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-meta-boxes.php:32
+msgid "Conditions"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-meta-boxes.php:37
+msgid "Show Gallery"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-meta-boxes.php:40
+#, php-format
+msgid "Shows the Gallery when set to %s."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-meta-boxes.php:47
+msgid "Congratulations, you created a gallery!"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-meta-boxes.php:52
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:276
+msgid "Gallery"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-meta-boxes.php:55
+#, php-format
+msgid "This is a Gallery option type. It displays when %s."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-meta-boxes.php:59
+msgid "More Options"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-meta-boxes.php:64
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:682
+msgid "Text"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-meta-boxes.php:67
+msgid "This is a demo Text field."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-meta-boxes.php:70
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:697
+msgid "Textarea"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-meta-boxes.php:73
+msgid "This is a demo Textarea field."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:36
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:45
+msgid "Option Types"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:37
+msgid "Help content goes here!"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:40
+msgid "Sidebar content goes here!"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:51
+msgid "Background"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:52
+#, php-format
+msgid ""
+"The Background option type is for adding background styles to your theme "
+"either dynamically via the CSS option type below or manually with %1$s. The "
+"Background option type has filters that allow you to remove fields or change "
+"the defaults. For example, you can filter %2$s to remove unwanted fields "
+"from all Background options or an individual one. You can also filter %3$s. "
+"These filters allow you to fine tune the select lists for your specific "
+"needs."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:52
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:758
+#: ../st-option-tree/includes/ot-functions-docs-page.php:128
+msgid "and"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:66
+msgid "Border"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:67
+msgid ""
+"The Border option type is used to set width, unit, style, and color values."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:81
+msgid "Box Shadow"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:82
+#, php-format
+msgid ""
+"The Box Shadow option type is used to set %1$s, %2$s, %3$s, %4$s, %5$s, and "
+"%6$s values."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:96
+msgid "Category Checkbox"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:97
+msgid ""
+"The Category Checkbox option type displays a list of category IDs. It allows "
+"the user to check multiple category IDs and will return that value as an "
+"array for use in a custom function or loop."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:111
+msgid "Category Select"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:112
+msgid ""
+"The Category Select option type displays a list of category IDs. It allows "
+"the user to select only one category ID and will return that value for use "
+"in a custom function or loop."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:126
+msgid "Checkbox"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:127
+msgid ""
+"The Checkbox option type displays a group of choices. It allows the user to "
+"check multiple choices and will return that value as an array for use in a "
+"custom function or loop."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:141
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:513
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:565
+msgid "No"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:146
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:508
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:560
+msgid "Yes"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:153
+msgid "Colorpicker"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:154
+msgid ""
+"The Colorpicker option type saves a hexadecimal color code for use in CSS. "
+"Use it to modify the color of something in your theme."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:168
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:169
+msgid "Colorpicker Opacity"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:170
+#, php-format
+msgid ""
+"The Colorpicker Opacity option type saves an rgba color value for use in "
+"CSS. To add opacity to other colorpickers add the %1$s class to the %2$s "
+"array."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:184
+msgid "CSS"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:185
+#, php-format
+msgid ""
+"The CSS option type is a textarea that when used properly can add dynamic "
+"CSS to your theme from within OptionTree. Unfortunately, due server "
+"limitations you will need to create a file named %1$s at the root level of "
+"your theme and change permissions using %2$s so the server can write to the "
+"file. I have had the most success setting this single file to %3$s but feel "
+"free to play around with permissions until everything is working. A good "
+"starting point is %4$s. When the server can save to the file, CSS will "
+"automatically be updated when you save your Theme Options."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:185
+#, php-format
+msgid ""
+"This example assumes you have an option with the ID of %1$s. Which means "
+"this option will automatically insert the value of %1$s into the %2$s when "
+"the Theme Options are saved."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:201
+msgid "Custom Post Type Checkbox"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:202
+#, php-format
+msgid ""
+"The Custom Post Type Select option type displays a list of IDs from any "
+"available WordPress post type or custom post type. It allows the user to "
+"check multiple post IDs for use in a custom function or loop. Requires at "
+"least one valid %1$s in the %1$s field."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:216
+msgid "Custom Post Type Select"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:217
+#, php-format
+msgid ""
+"The Custom Post Type Select option type displays a list of IDs from any "
+"available WordPress post type or custom post type. It will return a single "
+"post ID for use in a custom function or loop. Requires at least one valid "
+"%1$s in the %1$s field."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:231
+msgid "Date Picker"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:232
+msgid ""
+"The Date Picker option type is tied to a standard form input field which "
+"displays a calendar pop-up that allow the user to pick any date when focus "
+"is given to the input field. The returned value is a date formatted string."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:246
+msgid "Date Time Picker"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:247
+msgid ""
+"The Date Time Picker option type is tied to a standard form input field "
+"which displays a calendar pop-up that allow the user to pick any date and "
+"time when focus is given to the input field. The returned value is a date "
+"and time formatted string."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:261
+msgid "Dimension"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:262
+msgid "The Dimension option type is used to set width and height values."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:277
+msgid ""
+"The Gallery option type saves a comma separated list of image attachment "
+"IDs. You will need to create a front-end function to display the images in "
+"your theme."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:291
+msgid "Gallery Shortcode"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:292
+#, php-format
+msgid ""
+"The Gallery option type can also be saved as a shortcode by adding %s to the "
+"class attribute. Using the Gallery option type in this manner will result in "
+"a better user experience as you're able to save the link, column, and order "
+"settings."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:306
+msgid "Google Fonts"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:307
+#, php-format
+msgid ""
+"The Google Fonts option type will dynamically enqueue any number of Google "
+"Web Fonts into the document %1$s. As well, once the option has been saved "
+"each font family will automatically be inserted into the %2$s array for the "
+"Typography option type. You can further modify the font stack by using the "
+"%3$s filter, which is passed the %4$s, %5$s, and %6$s parameters. The %6$s "
+"parameter is being passed from %7$s, so it will be the ID of a Typography "
+"option type. This will allow you to add additional web safe fonts to "
+"individual font families on an as-need basis."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:327
+msgid "JavaScript"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:328
+#, php-format
+msgid ""
+"The JavaScript option type is a textarea that uses the %s code editor to "
+"highlight your JavaScript and display errors as you type."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:342
+msgid "Link Color"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:343
+msgid "The Link Color option type is used to set all link color states."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:357
+msgid "List Item"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:358
+msgid ""
+"The List Item option type allows for a great deal of customization. You can "
+"add settings to the List Item and those settings will be displayed to the "
+"user when they add a new List Item. Typical use is for creating sliding "
+"content or blocks of code for custom layouts."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:372
+msgid "Content"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:388
+msgid "Measurement"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:389
+#, php-format
+msgid ""
+"The Measurement option type is a mix of input and select fields. The text "
+"input excepts a value and the select lets you choose the unit of measurement "
+"to add to that value. Currently the default units are %1$s, %2$s, %3$s, and "
+"%4$s. However, you can change them with the %5$s filter."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:403
+msgid "Numeric Slider"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:404
+msgid ""
+"The Numeric Slider option type displays a jQuery UI slider. It will return a "
+"single numerical value for use in a custom function or loop."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:418
+msgid "On/Off"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:419
+#, php-format
+msgid ""
+"The On/Off option type displays a simple switch that can be used to turn "
+"things on or off. The saved return value is either %1$s or %2$s."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:433
+msgid "Page Checkbox"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:434
+msgid ""
+"The Page Checkbox option type displays a list of page IDs. It allows the "
+"user to check multiple page IDs for use in a custom function or loop."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:448
+msgid "Page Select"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:449
+msgid ""
+"The Page Select option type displays a list of page IDs. It will return a "
+"single page ID for use in a custom function or loop."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:463
+msgid "Post Checkbox"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:464
+msgid ""
+"The Post Checkbox option type displays a list of post IDs. It allows the "
+"user to check multiple post IDs for use in a custom function or loop."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:478
+msgid "Post Select"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:479
+msgid ""
+"The Post Select option type displays a list of post IDs. It will return a "
+"single post ID for use in a custom function or loop."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:493
+msgid "Radio"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:494
+msgid ""
+"The Radio option type displays a group of choices. It allows the user to "
+"choose one and will return that value as a string for use in a custom "
+"function or loop."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:518
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:570
+msgid "Maybe"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:525
+msgid "Radio Image"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:526
+#, php-format
+msgid ""
+"the Radio Images option type is primarily used for layouts. However, you can "
+"filter the image list using %s. As well, you can add your own custom images "
+"using the choices array."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:540
+msgid "Select"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:541
+msgid ""
+"The Select option type is used to list anything you want that would be "
+"chosen from a select list."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:555
+msgid "-- Choose One --"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:577
+msgid "Sidebar Select"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:578
+#, php-format
+msgid ""
+"This option type makes it possible for users to select a WordPress "
+"registered sidebar to use on a specific area. By using the two provided "
+"filters, %1$s, and %2$s we can be selective about which sidebars are "
+"available on a specific content area."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:578
+#, php-format
+msgid ""
+"For example, if we create a WordPress theme that provides the ability to "
+"change the Blog Sidebar and we don't want to have the footer sidebars "
+"available on this area, we can unset those sidebars either manually or by "
+"using a regular expression if we have a common name like %s."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:592
+msgid "Social Links"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:593
+#, php-format
+msgid ""
+"The Social Links option type utilizes a drag & drop interface to create a "
+"list of social links. There are a few filters that make extending this "
+"option type easy. You can set the %1$s filter to %2$s and turn off loading "
+"default values. Use the %3$s filter to change the default values that are "
+"loaded. To filter the settings array use the %4$s filter."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:607
+msgid "Spacing"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:608
+msgid ""
+"The Spacing option type is used to set spacing values such as padding or "
+"margin in the form of top, right, bottom, and left."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:622
+msgid "Tag Checkbox"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:623
+msgid ""
+"The Tag Checkbox option type displays a list of tag IDs. It allows the user "
+"to check multiple tag IDs and will return that value as an array for use in "
+"a custom function or loop."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:637
+msgid "Tag Select"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:638
+msgid ""
+"The Tag Select option type displays a list of tag IDs. It allows the user to "
+"select only one tag ID and will return that value for use in a custom "
+"function or loop."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:652
+msgid "Taxonomy Checkbox"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:653
+msgid ""
+"The Taxonomy Checkbox option type displays a list of taxonomy IDs. It allows "
+"the user to check multiple taxonomy IDs and will return that value as an "
+"array for use in a custom function or loop."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:667
+msgid "Taxonomy Select"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:668
+msgid ""
+"The Taxonomy Select option type displays a list of taxonomy IDs. It allows "
+"the user to select only one taxonomy ID and will return that value for use "
+"in a custom function or loop."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:683
+msgid ""
+"The Text option type is used to save string values. For example, any "
+"optional or required text that is of reasonably short character length."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:698
+#, php-format
+msgid ""
+"The Textarea option type is a large string value used for custom code or "
+"text in the theme and has a WYSIWYG editor that can be filtered to change "
+"the how it is displayed. For example, you can filter %1$s, %2$s, %3$s, and "
+"%4$s."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:712
+msgid "Textarea Simple"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:713
+msgid ""
+"The Textarea Simple option type is a large string value used for custom code "
+"or text in the theme. The Textarea Simple does not have a WYSIWYG editor."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:727
+msgid "Textblock"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:728
+msgid ""
+"The Textblock option type is used only on the Theme Option page. It will "
+"allow you to create & display HTML, but has no title above the text block. "
+"You can then use the Textblock to add a more detailed set of instruction on "
+"how the options are used in your theme. You would never use this in your "
+"themes template files as it does not save a value."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:742
+msgid "Textblock Titled"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:743
+msgid ""
+"The Textblock Titled option type is used only on the Theme Option page. It "
+"will allow you to create & display HTML, and has a title above the text "
+"block. You can then use the Textblock Titled to add a more detailed set of "
+"instruction on how the options are used in your theme. You would never use "
+"this in your themes template files as it does not save a value."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:757
+msgid "Typography"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:758
+#, php-format
+msgid ""
+"The Typography option type is for adding typography styles to your theme "
+"either dynamically via the CSS option type above or manually with %1$s. The "
+"Typography option type has filters that allow you to remove fields or change "
+"the defaults. For example, you can filter %2$s to remove unwanted fields "
+"from all Background options or an individual one. You can also filter %3$s. "
+"These filters allow you to fine tune the select lists for your specific "
+"needs."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:772
+msgid "Upload"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:773
+#, php-format
+msgid ""
+"The Upload option type is used to upload any WordPress supported media. "
+"After uploading, users are required to press the \"%1$s\" button in order to "
+"populate the input with the URI of that media. There is one caveat of this "
+"feature. If you import the theme options and have uploaded media on one site "
+"the old URI will not reflect the URI of your new site. You will have to re-"
+"upload or %2$s any media to your new server and change the URIs if necessary."
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:773
+#: ../st-option-tree/includes/ot-functions-admin.php:930
+#: ../st-option-tree/includes/ot-functions-docs-page.php:498
+msgid "Send to OptionTree"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:787
+msgid "Upload Attachment ID"
+msgstr ""
+
+#: ../st-option-tree/assets/theme-mode/demo-theme-options.php:788
+#, php-format
+msgid ""
+"The Upload option type can also be saved as an attachment ID by adding %s to "
+"the class attribute."
+msgstr ""
+
+#: ../st-option-tree/includes/class-ot-cleanup.php:83
+msgid "OptionTree Cleanup"
+msgstr ""
+
+#: ../st-option-tree/includes/class-ot-cleanup.php:144
+#, php-format
+msgid ""
+"%1$s: Your server is running in safe mode. Which means this page will "
+"automatically reload after deleting %2$s posts, you can filter this number "
+"using %3$s if your server is having trouble processing that many at one time."
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-admin.php:5630
+msgid "Video"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:1455
+#: ../st-option-tree/includes/ot-functions-option-types.php:2383
+msgid "You can re-order with drag & drop, the order will update after saving."
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2250
+msgid "Facebook"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2255
+msgid "Twitter"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2260
+msgid "Google+"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2265
+msgid "LinkedIn"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2270
+msgid "Pinterest"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2275
+msgid "Youtube"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2280
+msgid "Dribbble"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2285
+msgid "Github"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2290
+msgid "Forrst"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2295
+msgid "Digg"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2300
+msgid "Delicious"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2305
+msgid "Tumblr"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2310
+msgid "Skype"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2315
+msgid "SoundCloud"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2320
+msgid "Vimeo"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2325
+msgid "Flickr"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions-option-types.php:2330
+msgid "VK.com"
+msgstr ""
+
+#: ../st-option-tree/includes/ot-functions.php:358
+msgid "Theme Options"
+msgstr ""
+
+#: ../update_taxonomy.php:41
+msgid "Update OptionTree -> OK"
+msgstr ""
+
+#: ../update_taxonomy.php:48
+msgid "Add Taxonomy before import XML -> OK"
+msgstr ""
+
+#: ../update_taxonomy.php:54
+msgid "Update widget -> OK"
+msgstr ""
+
+#: ../update_taxonomy.php:70
+msgid "Add Taxonomy after import XML -> OK"
+msgstr ""

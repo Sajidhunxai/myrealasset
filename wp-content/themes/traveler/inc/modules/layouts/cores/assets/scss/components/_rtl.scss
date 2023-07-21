@@ -1,0 +1,91 @@
+[dir=rtl] {
+  #topbar.style-elementor .topbar-items > li:not(:last-child):after {
+    left: -20px;
+    right: auto !important;
+  }
+
+  #topbar.style-elementor .topbar-items > li:not(:last-child) {
+    margin-left: 40px;
+    margin-right: 0 !important;
+  }
+
+  #topbar.style-elementor .topbar-items li.nav-drop .cursor .fa-angle-down, #topbar.style-elementor .topbar-items li.nav-drop .current_langs .fa-angle-down, #topbar.style-elementor .topbar-items li.nav-drop > a .fa-angle-down {
+    margin-left: 0;
+    margin-right: 6px;
+  }
+
+  .header__right .items li:not(:first-child) {
+    margin-left: auto !important;
+    margin-right: 20px;
+  }
+
+  .header__right .items .dropdown .dropdown-toggle .fa:not(.input-icon) {
+    margin-left: auto !important;
+    margin-right: 6px;
+  }
+
+  .header__right .items .dropdown .dropdown-menu li {
+    margin-right: 0;
+  }
+
+  .header__right .items .dropdown.dropdown-currency .dropdown-menu {
+    left: 0 !important;
+    right: auto !important;
+  }
+
+  .header__right .items .dropdown.dropdown-minicart .dropdown-menu {
+    left: 0 !important;
+    right: auto !important;
+  }
+
+  .header__right .items .dropdown.dropdown-user-dashboard .dropdown-menu .user-name .avatar {
+    margin-right: 0 !important;
+    margin-left: 5px;
+  }
+
+  .header__center #st-main-menu .main-menu li.menu-item-has-children .menu-dropdown li .fa {
+    left: 0 !important;
+    right: auto !important;
+    transform: rotate(90deg);
+  }
+
+  .header__center #st-main-menu .main-menu li.menu-item-has-children .menu-dropdown .menu-dropdown {
+    left: auto !important;
+    right: 100%;
+  }
+  .header{
+    &__right{
+      ul.items{
+        padding: 0;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 991px){
+  [dir=rtl] {
+    .header__center #st-main-menu {
+      right: -150%;
+      left: auto;
+    }
+
+    .header__center #st-main-menu.open {
+      right: 0;
+      left: auto;
+    }
+
+    .header__center #st-main-menu .main-menu li.menu-item-has-children .fa {
+      right: auto;
+      left: 10px;
+    }
+
+    .header__center #st-main-menu .menu.main-menu li.menu-item-has-children .menu-dropdown li.menu-item-has-children .fa {
+      transform: rotate(0deg);
+    }
+
+    .header__center #st-main-menu .menu.main-menu > li.menu-item-has-children > .menu-dropdown > li .menu-dropdown {
+      left: auto !important;
+      right: 0;
+    }
+  }
+}

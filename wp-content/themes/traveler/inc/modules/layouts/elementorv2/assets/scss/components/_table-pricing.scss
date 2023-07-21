@@ -1,0 +1,57 @@
+//Table pricing
+.item-member-ship.style2 {
+    .item-st {
+        padding: 30px;
+        .title {
+            text-align: left;
+        }
+        .price {
+            display: flex;
+            align-items: center;
+            .price {
+               margin-right: 6px;
+            }
+        }
+        .pricingContent {
+            border-top: 1px solid #DEDEDE;
+            margin-top: 1.563rem;
+            .stt-icon-check,.stt-icon-close {
+                width: 20px;
+                height: 20px;
+                line-height: 20px;
+                border-radius: 20px;
+                background: #CEF2E5;
+                display: inline-block;
+                text-align: center;
+                margin-right: 12px;
+                position: relative;
+                &::before {
+                    font-size: 7px;
+                    position: absolute;
+                    top: 50%;
+                    left: 50%;
+                    color: #10AC58;
+                    transform: translate(-50%, -50%);
+                }
+            }
+            .stt-icon-close {
+                background:#FAD6D6;
+                &::before {
+                    color:#DA3838;
+                }
+            }
+            ul {
+                li {
+                    display: flex;
+                    align-items: center;
+                    border-bottom: none;
+                    padding-top: 0.625rem;
+                    padding-bottom: 0.625rem;
+                    &:first-child {
+                        padding-top: 1.875rem;
+                    }
+                }
+            }
+        }
+    }
+} 

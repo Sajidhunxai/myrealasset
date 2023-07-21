@@ -1,0 +1,16 @@
+.single .booking-item-details #nav-tab li{
+	width: 50%;
+    text-align: center;
+    font-size: 16px;
+}
+.classic.car_booking_form, .classic.form-has-guest-name{
+	margin-top: 15px;
+}
+.classic.form-has-guest-name.instant-rental-classic, .enquire-rental-classic .media.form-st-send-mail{
+	margin-top: 0px;
+}
+
+/*.sent-email-st{
+    background: #ed8323;
+    color: #FFF;
+}*/

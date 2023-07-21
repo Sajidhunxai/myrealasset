@@ -1,0 +1,17 @@
+{
+    "name": "lenovo/traveler-rest-api",
+    "description": "Traveler Rest API",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "thoaingovnkingnet",
+            "email": "thoaingo.vnkingnet@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}

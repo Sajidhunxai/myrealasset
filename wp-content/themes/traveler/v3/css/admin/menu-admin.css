@@ -1,0 +1,44 @@
+.st_menu_options {
+    clear: both;
+    position: relative;
+    overflow: hidden;
+    padding: 15px;
+    background: #f2f2f2;
+}
+.st_menu_options .description {
+    margin: 2px 0 5px;
+    position: relative;
+}
+.st_menu_options .description-thin {
+    width: 175px;
+}
+.st_menu_options .description-wide {
+    width: 370px;
+}
+.menu-item.menu-item-depth-0 .st-field-link-image,
+.menu-item.menu-item-depth-0 .st-field-link-title,
+.menu-item:not(.menu-item-depth-0) .st-field-link-mega {
+    display: none;
+}
+.st_menu_options .small-tag {
+    position: relative;
+    display: inline-block;
+    top: -7px;
+    font-size: 10px;
+    background: #777;
+    color: #fff;
+    padding: 0 6px;
+    border-radius: 3px;
+}
+.st-field-link-label,
+.st-field-link-labelcolor + .st-field-link-image {
+    border-top: 1px solid #ddd;
+    padding-top: 8px;
+}
+.st-field-link-image .image-preview {
+    margin: 5px 0;
+}
+.st-field-link-image img {
+    max-height: 100px;
+    width: auto;
+}

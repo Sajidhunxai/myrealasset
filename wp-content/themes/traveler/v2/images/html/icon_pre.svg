@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="10px" height="18px" viewBox="0 0 10 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>icon_pre</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="01_Home" transform="translate(-70.000000, -316.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <g id="slide">
+                <g id="next" transform="translate(51.000000, 302.000000)">
+                    <g id="icon_pre" transform="translate(19.284898, 14.729796)">
+                        <g id="icon_pre_3" transform="translate(0.000000, 0.000000)">
+                            <path d="M0.286530612,16.2146939 C0.472653061,16.4008163 0.727346939,16.4987755 0.972244898,16.4987755 C1.21714286,16.4987755 1.47183673,16.4008163 1.65795918,16.2146939 L8.93632653,8.93632653 C9.12244898,8.75020408 9.22040816,8.50530612 9.22040816,8.25061224 C9.22040816,7.99591837 9.12244898,7.75102041 8.93632653,7.56489796 L1.65795918,0.286530612 C1.27591837,-0.0955102041 0.668571429,-0.0955102041 0.286530612,0.286530612 C-0.0955102041,0.668571429 -0.0955102041,1.27591837 0.286530612,1.65795918 L6.87918367,8.25061224 L0.286530612,14.8432653 C-0.0857142857,15.2253061 -0.0857142857,15.842449 0.286530612,16.2146939 Z" id="Path" transform="translate(4.610204, 8.249388) rotate(-180.000000) translate(-4.610204, -8.249388) "></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

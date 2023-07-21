@@ -1,0 +1,43 @@
+@media screen and (min-color-index:0) and(-webkit-min-device-pixel-ratio:0) {
+    @media {
+        .search-result-page .tour-search-form-home .search-form .form-extra-field {
+            padding: 19px 0 16px 0;
+        }
+        .search-result-page .search-form-wrapper .search-form.hotel-search-form.in_tab .form-extra-field {
+            padding: 19px 0 16px 0;
+        }
+    }
+}
+
+@media not all and (min-resolution:.001dpcm) {
+    @media {
+        .search-result-page .tour-search-form-home .search-form .form-extra-field {
+            padding: 19px 0 16px 0;
+        }
+        .search-result-page .search-form-wrapper .search-form.hotel-search-form.in_tab .form-extra-field {
+            padding: 19px 0 16px 0;
+        }
+    }
+}
+
+.modal-backdrop{
+    z-index: 9;
+}
+
+h4.title-enquiry-form{
+    font-size: 17px;
+    padding: 5px 20px;
+}
+@media only screen and (max-width: 768px) {
+    .respon-single .calendar-time-wrapper .calendar-time:first-child {
+        border-bottom: 0;
+    }
+    .respon-single .calendar-time-wrapper .calendar-time {
+        display: flex;
+        justify-content: flex-end;
+    }
+    #st-content-wrapper .search-form-wrapper.st-search-form-st_activity .search-form .form-button button {
+        width: 100% !important;
+        margin:0;
+    }
+}

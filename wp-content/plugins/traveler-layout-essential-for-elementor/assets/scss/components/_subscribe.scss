@@ -1,0 +1,56 @@
+.traveler-form {
+    position: relative;
+    .stt-subscribe-form-style-3 & {
+        .form-row {
+            display: flex;
+            .control-group {
+                width: 100%;
+            }
+            .submit {
+                margin-left: 10px;
+                width:35%;
+            }
+        }
+    }
+    .form-input {
+        .stt-subscribe-form-style-1 & {
+            width: 100%; 
+            text-align: center;
+            margin-bottom: 16px;
+           
+        }
+        .stt-subscribe-form-style-2 & {
+            width: 100%;
+        }
+        .stt-subscribe-form-style-3 & {
+            float: left;
+            margin-right: 16px;
+            max-width: 100%;
+        }
+        &::placeholder {
+            color:rgba(255, 255, 255, 0.7);
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            .stt-subscribe-form-style-3 & {
+                color: #727272;
+            }
+        }
+    }
+    .submit {
+        .stt-subscribe-form-style-1 & {
+            width: 100%;
+        }
+        .stt-subscribe-form-style-2 & {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+        .button-icon {
+            margin-left: 9px;
+            .fas {
+                font-size: 12px; 
+            }
+        }
+    }
+}

@@ -1,0 +1,1 @@
+<div class="alert alert-warning mt15"><?php echo __('No rentals found.', 'traveler'); ?></div>

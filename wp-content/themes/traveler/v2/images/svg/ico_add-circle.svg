@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>add-circle</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="Tour_Detail_4" transform="translate(-1267.000000, -1231.000000)" stroke="#1A2B48">
+            <g id="check-avai" transform="translate(1034.000000, 871.000000)">
+                <g id="pack" transform="translate(0.000000, 331.000000)">
+                    <g id="Group" transform="translate(234.000000, 30.000000)">
+                        <g id="add-circle">
+                            <circle id="Oval" cx="8" cy="8" r="8"></circle>
+                            <path d="M8,3.63636364 L8,12.3636364" id="Shape"></path>
+                            <path d="M12.3636364,8 L3.63636364,8" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

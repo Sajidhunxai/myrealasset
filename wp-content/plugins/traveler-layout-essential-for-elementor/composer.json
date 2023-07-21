@@ -1,0 +1,17 @@
+{
+    "name": "traveler/traveler-layout-essential-for-elementor",
+    "description": "Awesome starter plugin",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "traveler",
+            "email": "contact@shinetheme.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {"Inc\\": "./inc"}
+    }
+}

@@ -1,0 +1,402 @@
+.item-rental{
+    .featured-image{
+        .price-wrapper {
+            position: absolute;
+            bottom: 15px;
+            left: 20px;
+            .sale-top{
+                color: #fff;
+            }
+            .price {
+                font-size: 18;
+                color: #fff;
+            }
+            .unit {
+                font-size: 14px;
+                color: #fff;
+            }
+        }
+    }
+    .content-item{
+        .service-title {
+            margin-bottom: 2px;
+        }
+        .service-location{
+            margin-top: 5px;
+            margin-bottom: 10px;
+        }
+        .service-review {
+            margin-top: 10px;
+            .rate {
+                color: var(--main-color,#5191FA);
+            }
+            .review {
+                margin-left: 34px;
+                position: relative;
+                &:after {
+                    position: absolute;
+                    content: "";
+                    width: 4px;
+                    height: 4px;
+                    background: #d0d7dd;
+                    border-radius: 50%;
+                    left: -18px;
+                    top: 8px;
+                }
+            }
+        }
+    }
+    .amenities {
+        margin-top: 20px;
+        padding-top: 20px;
+        border-top: 1px solid #e4e8ed;
+        .amenity {
+            width: 25%;
+            margin-bottom: 10px;
+            &:not(.amenity-car){
+                display: flex;
+                align-items: center;
+            }
+            cursor: pointer;
+            float: left;
+            .input-icon {
+                margin-right: 5px;
+            }
+            .ico {
+                display: block;
+            }
+        }
+    }
+    
+}
+.list-style{
+    .item-service{
+        .amenities {
+            margin-top: 20px;
+            padding-top: 20px;
+            margin-bottom: 20px;
+            border-top: 1px solid #e4e8ed;
+            .amenity {
+                width: 25%;
+                display: flex;
+                align-items: center;
+                float: left;
+                .input-icon {
+                    margin-right: 5px;
+                }
+            }
+        }
+    }
+}
+
+.st-search-rental{
+    .style-full-map{
+        @media screen and (min-width:991px) {
+            .toolbar{
+                margin-top: 50px;
+            }
+        }
+        
+    }
+    .list-style{
+        .amenities{
+            margin-bottom: 20px;
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid #e4e8ed;
+            span{
+                span{
+                    margin-right: 10px;
+                }
+                i{
+                    margin-right: 4px;
+                }
+            }
+        }
+        .item-service-inner{
+            .footer-flex{
+                padding-left: 0px;
+                padding-right: 0px;
+            }
+        }
+    }
+    #sticky-halfmap , .map-view-popup{
+        @media screen and (min-width:992px){
+            .item-content{
+                padding-top: 10px;
+                padding-bottom: 10px;
+            }
+        }
+        
+    }
+}
+.st-house-availability{
+    margin-top: 30px;
+    
+    .daterangepicker {
+        border-radius: 3px;
+        padding-top: 20px !important;
+
+        &:before {
+            border: none;
+        }
+    }
+    .table-condensed{
+        tr{
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            .td-date {
+                width: calc(100% / 7 - 4px) !important;
+            }
+        }
+    }
+    .st-calendar {
+        position: relative;
+        @media (min-width: 564px){
+            .calendar.right{
+                padding: 0px !important;
+                
+                .calendar-table{
+                    padding-left: 12px;
+               }
+            }
+            .calendar.left{
+               .calendar-table{
+                    padding-right: 12px;
+               }
+                
+            }
+        }
+        
+        .calendar-table {
+            
+
+            .table-header {
+                padding-bottom: 25px;
+
+                .prev,
+                .next {
+                    bottom: 5px !important;
+                }
+            }
+        }
+
+        .calendar_input {
+            opacity: 0;
+            visibility: hidden;
+            width: 0;
+            height: 0;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+        .table-sub-header {
+            .day-off-week {
+                width: calc(100% / 7 - 4px);
+                margin: 2px;
+            }
+        }
+
+        &.left {
+            .table-sub-header {
+                margin-right: 38px;
+            }
+        }
+
+        .daterangepicker {
+            position: static;
+            width: 100%;
+            box-shadow: none !important;
+            border-color: #D7DCE3;
+            padding: 30px;
+            @media screen and (max-width:1024px) {
+                padding: 10px;
+            }
+            .calendar {
+                margin: 0;
+                width: 50%;
+                @media screen and (max-width:1024px) {
+                    width:100%
+                }
+                &.right {
+                    padding-left: 38px;
+                }
+
+                .table-condensed {
+                    .td-date {
+                        
+                        @media screen and (max-width:1024px) {
+                            height: calc(100% / 7 - 4px);
+                        }
+                        display: block;
+                        float: left;
+                        margin: 2px;
+                        padding: 0;
+                        width: calc(100% / 7 - 4px);
+                        border: 1px solid #D7DCE3;
+                        border-radius: 3px;
+                        
+                        
+                        &.td-no-show.available.off.available{
+                            height: 0px;
+                        }
+                        .date {
+                            width: 100% !important;
+                            @media screen and (max-width:1024px) {
+                                height: 100% !important;
+                            }
+                            line-height: 48px;
+                            width: calc(100% / 7 - 4px);
+                            line-height: 48px;
+                            border: none;
+                            display: inline-table;
+                            text-align: center;
+                            
+                            
+                            border-radius: 3px;
+                            color: var(--link-color, #5191FA);
+
+                            &.no-show {
+                                bordeR: none;
+                            }
+                        }
+
+                        &.disabled {
+                            text-decoration: none;
+
+                            .date {
+                                color: #D7DCE3;
+                            }
+                        }
+
+                        &.today, &.active, &.start-date, &.in-range, &:hover {
+                            background: none !important;
+                            box-shadow: none;
+                        }
+                    }
+                }
+            }
+
+            &.respon-single {
+                width: auto;
+
+                .calendar {
+                    max-width: 100%;
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+.st-list-availability{
+    li{
+        &:not(:last-child) {
+            margin-right: 30px;
+        }
+        span {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            margin-right: 10px;
+            &.not_available {
+                border: 1px solid #d7dce3;
+            }
+            &.available {
+                background: var(--main-color,#5191FA);
+            }
+        }
+    }
+}
+@media screen and (max-width:1024px) {
+    .st-availability {
+        .calendar {
+            .table-sub-header {
+                .day-off-week {
+                    width: calc(100% / 7 - 4px);
+                }
+            }
+            &.left {
+                .table-sub-header {
+                    margin-right: 22px;
+                }
+            }
+            .daterangepicker {
+                .calendar {
+                    &.right {
+                        padding-left: 22px;
+                    }
+                    .table-condensed {
+                        .td-date {
+                            width: calc(100% / 7 - 4px);
+                            height: 48px;
+                            .date {
+                                width: calc(100% / 7 - 4px);
+                                height: 48px;
+                                line-height: 48px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+h2.st-heading.st-related{
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+.guest_name_input{
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: #f6f9fe;
+    label {
+        margin-bottom: 20px;
+        padding-top: 25px;
+    }
+    .guest_name_control{
+        .control-item {
+            display: flex;
+            padding-bottom: 20px;
+            select {
+                width: auto;
+                padding: 0;
+                border: none;
+                box-shadow: none;
+                border-bottom: 1px solid #d7dce3;
+                border-radius: unset;
+                background: transparent;
+            }
+            input {
+                margin-left: 20px;
+                padding: 0;
+                border: none;
+                box-shadow: none;
+                border-bottom: 1px solid #d7dce3;
+                border-radius: unset;
+                background-color: #f6f9fe;
+            }
+        }
+    }
+}
+.st-map{
+    display: flex;
+    align-items: center;
+    @media (max-width: 480px){
+        display: flex;
+        align-items: center;
+    }
+}
+
+.page-template-template-rental-search{
+    .search-result-page.st-search-rental{
+        .search-form {
+            .field-guest{
+                border-left: transparent;
+                padding-left: 0;
+            }
+        }
+    }
+}

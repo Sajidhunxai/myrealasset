@@ -1,0 +1,15 @@
+#plugin-information-title .preview_image{
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 58%;
+    left: 17%;
+    height: 100%;
+}
+#plugin-information-title .preview_image img{
+    width: 130px;
+    height: 130px;
+    object-fit: contain;
+}
+#plugin-information-title.with-banner div.vignette{
+    box-shadow: none;
+}

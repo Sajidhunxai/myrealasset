@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="64px" height="29px" viewBox="0 0 64 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 53.2 (72643) - https://sketchapp.com -->
+    <title>ico_next_3</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
+        <g id="20_Apartment" transform="translate(-1242.000000, -928.000000)" stroke="#1A2B48">
+            <g id="apartment" transform="translate(135.000000, 900.000000)">
+                <g id="heading">
+                    <g id="ico_next_3" transform="translate(1108.000000, 28.000000)">
+                        <g id="keyboard-arrow-right">
+                            <polyline id="Shape" points="48.3333333 0.992 61.6666667 14.3253333 48.3333333 27.6586667"></polyline>
+                            <path d="M61.6666667,14.3253333 L0.333333333,14.3253333" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
