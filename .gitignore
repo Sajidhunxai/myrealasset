@@ -27,7 +27,7 @@ wp-config.php
 /wp-content/plugins/hello.php
 
 # Uploads
-/wp-content/uploads/
+# /wp-content/uploads/
 /wp-content/ai1wm-backups/
 
 # Log files
